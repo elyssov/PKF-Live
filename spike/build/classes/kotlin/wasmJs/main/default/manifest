@@ -1,0 +1,11 @@
+abi_version=1.201.0
+builtins_platform=WASM
+compiler_version=2.1.0
+depends=org.jetbrains.compose.foundation\:foundation org.jetbrains.compose.animation\:animation org.jetbrains.compose.foundation\:foundation-layout org.jetbrains.compose.ui\:ui org.jetbrains.kotlinx\:kotlinx-browser org.jetbrains.compose.animation\:animation-core org.jetbrains.kotlinx\:kotlinx-coroutines-core org.jetbrains.kotlinx\:atomicfu org.jetbrains.compose.runtime\:runtime-saveable kotlin org.jetbrains.compose.runtime\:runtime org.jetbrains.compose.ui\:ui-text org.jetbrains.compose.ui\:ui-graphics org.jetbrains.compose.ui\:ui-unit org.jetbrains.skiko\:skiko org.jetbrains.compose.ui\:ui-geometry org.jetbrains.compose.ui\:ui-util
+ir_signature_versions=1,2
+jsOutputName=arcade-spike-wasm-js
+metadata_version=1.4.1
+serializedIrFileFingerprints=2rhvagvslzhh2.37nbgt0besvob
+serializedKlibFingerprint=238jfh9nbf1h9.ziyv675wcvsg
+unique_name=arcade-spike
+wasm_targets=wasm-js

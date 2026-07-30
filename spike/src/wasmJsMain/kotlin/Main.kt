@@ -13,6 +13,7 @@ import androidx.compose.ui.geometry.Offset
 import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.input.pointer.pointerInput
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.window.CanvasBasedWindow
 import kotlin.math.abs
 
@@ -47,6 +48,7 @@ private class MiniPong {
     private fun reset() { ballX = w / 2f; ballY = h / 2f; vx = if (vx > 0) -260f else 260f; vy = 180f }
 }
 
+@OptIn(ExperimentalComposeUiApi::class)
 fun main() {
     CanvasBasedWindow(canvasElementId = "arcade") {
         val game = remember { MiniPong() }
