@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Pixel Campfire — Arcade Hall</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ══════════════ КАССА (вестибюль) ══════════════ -->
+<section id="lobby" class="scene">
+  <div class="marquee-sign">
+    <div class="neon-line small">THE PIXEL CAMPFIRE</div>
+    <div class="neon-line big">ARCADE</div>
+    <div class="neon-sub">монеты · автоматы · истории</div>
+  </div>
+
+  <div class="booth">
+    <div class="booth-roof"></div>
+    <div class="booth-window">
+      <div class="cashier-glass">
+        <div class="booth-title">К А С С А</div>
+        <div class="price-card">
+          <span class="usd">$1</span>
+          <span class="arrow">→</span>
+          <span class="coins-price">8 четвертаков</span>
+        </div>
+        <button id="buyBtn" class="buy-btn">КУПИТЬ МОНЕТЫ</button>
+        <div class="paypal-note">PayPal · демо-касса, деньги не списываются</div>
+      </div>
+      <div class="booth-slot"></div>
+    </div>
+    <div class="booth-legs"></div>
+  </div>
+
+  <div class="lobby-hint">Лекции у автоматов — бесплатно. Играть — за монетку.</div>
+  <button id="enterHall" class="enter-btn">ВОЙТИ В ЗАЛ ▸</button>
+</section>
+
+<!-- ══════════════ ЗАЛ (карусель автоматов) ══════════════ -->
+<section id="hall" class="scene hidden">
+  <header class="hall-head">
+    <button id="backLobby" class="ghost-btn">◂ касса</button>
+    <div class="hall-title">ЗАЛ №1</div>
+    <div id="wallet" class="wallet" title="Твои четвертаки">
+      <div id="coinStack" class="coin-stack"></div>
+      <div id="coinCount" class="coin-count">0</div>
+    </div>
+  </header>
+
+  <div class="carousel-wrap">
+    <button class="car-arrow" id="prevCab">◂</button>
+    <div id="carousel" class="carousel"></div>
+    <button class="car-arrow" id="nextCab">▸</button>
+  </div>
+
+  <div class="hall-hint" id="hallHint">Листай зал. Схвати монетку из стакана и сунь её в щель автомата.</div>
+</section>
+
+<!-- Перетаскиваемая монетка -->
+<div id="dragCoin" class="drag-coin hidden">25¢</div>
+
+<script src="app.js"></script>
+</body>
+</html>

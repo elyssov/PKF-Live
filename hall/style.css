@@ -1,0 +1,368 @@
+/* The Pixel Campfire — Arcade Hall.
+   Тёмный зал, неон, ковролин девяностых. Всё самодельное: ни одной
+   внешней картинки — только CSS. */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+:root {
+  --neon-pink: #ff3d9a;
+  --neon-cyan: #2ee6ff;
+  --neon-amber: #ffb02e;
+  --hall-dark: #0b0812;
+  --carpet: #17102a;
+  --cab-body: #1d1530;
+}
+
+html, body { height: 100%; }
+body {
+  font-family: "Courier New", monospace;
+  background: var(--hall-dark);
+  color: #e8e2f4;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+.scene {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 28px;
+  padding: 24px;
+  background:
+    radial-gradient(ellipse at 50% -10%, #221640 0%, transparent 55%),
+    linear-gradient(#0b0812 60%, #17102a 100%);
+}
+.hidden { display: none !important; }
+
+/* ── Неоновая вывеска ─────────────────────────────── */
+.marquee-sign { text-align: center; }
+.neon-line {
+  font-weight: bold;
+  letter-spacing: 0.35em;
+  color: #fff;
+}
+.neon-line.small {
+  font-size: clamp(14px, 2.2vw, 22px);
+  color: var(--neon-cyan);
+  text-shadow: 0 0 6px var(--neon-cyan), 0 0 24px var(--neon-cyan);
+}
+.neon-line.big {
+  font-size: clamp(42px, 8vw, 92px);
+  color: var(--neon-pink);
+  text-shadow:
+    0 0 8px var(--neon-pink),
+    0 0 32px var(--neon-pink),
+    0 0 80px #ff3d9a88;
+  animation: flicker 6s infinite;
+}
+.neon-sub { margin-top: 6px; color: #9d92b8; letter-spacing: 0.2em; font-size: 13px; }
+
+@keyframes flicker {
+  0%, 92%, 96%, 100% { opacity: 1; }
+  93%, 95% { opacity: 0.55; }
+}
+
+/* ── Будка кассы ──────────────────────────────────── */
+.booth { display: flex; flex-direction: column; align-items: center; }
+.booth-roof {
+  width: 360px; height: 26px;
+  background: repeating-linear-gradient(45deg,
+    var(--neon-pink) 0 18px, #fff 18px 36px);
+  border-radius: 8px 8px 0 0;
+  box-shadow: 0 4px 18px #ff3d9a44;
+}
+.booth-window {
+  width: 320px;
+  background: linear-gradient(#241a3e, #191128);
+  border: 3px solid #37285c;
+  border-top: none;
+  border-radius: 0 0 10px 10px;
+  padding: 18px 20px 14px;
+  position: relative;
+}
+.cashier-glass {
+  border: 2px solid #4a3a78;
+  border-radius: 8px;
+  background:
+    linear-gradient(160deg, #ffffff0d 0%, transparent 40%),
+    #120c22;
+  padding: 16px;
+  text-align: center;
+}
+.booth-title { letter-spacing: 0.6em; color: var(--neon-amber); text-shadow: 0 0 10px #ffb02e88; margin-bottom: 12px; }
+.price-card { display: flex; justify-content: center; align-items: baseline; gap: 10px; margin-bottom: 14px; }
+.usd { font-size: 34px; color: #7dff8a; text-shadow: 0 0 10px #7dff8a66; font-weight: bold; }
+.arrow { color: #9d92b8; }
+.coins-price { font-size: 18px; color: var(--neon-amber); }
+
+.buy-btn {
+  font-family: inherit;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 0.12em;
+  padding: 12px 22px;
+  color: #1a1206;
+  background: linear-gradient(#ffd36e, #ffb02e);
+  border: 2px solid #a86f0e;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 4px 0 #7a5108, 0 0 22px #ffb02e55;
+}
+.buy-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #7a5108; }
+.paypal-note { margin-top: 10px; font-size: 11px; color: #6f6590; }
+
+.booth-slot {
+  width: 140px; height: 8px;
+  margin: 12px auto 0;
+  background: #06040c;
+  border-radius: 4px;
+  box-shadow: inset 0 2px 6px #000;
+}
+.booth-legs { width: 300px; height: 12px; background: #0e0918; border-radius: 0 0 6px 6px; }
+
+.lobby-hint { color: #9d92b8; font-size: 14px; }
+.enter-btn {
+  font-family: inherit;
+  font-size: 18px;
+  letter-spacing: 0.2em;
+  padding: 14px 30px;
+  color: var(--neon-cyan);
+  background: transparent;
+  border: 2px solid var(--neon-cyan);
+  border-radius: 10px;
+  cursor: pointer;
+  text-shadow: 0 0 8px var(--neon-cyan);
+  box-shadow: 0 0 18px #2ee6ff33, inset 0 0 18px #2ee6ff22;
+}
+.enter-btn:hover { background: #2ee6ff14; }
+
+/* ── Зал ──────────────────────────────────────────── */
+#hall { justify-content: flex-start; padding-top: 14px; }
+.hall-head {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hall-title { letter-spacing: 0.5em; color: #9d92b8; }
+.ghost-btn {
+  font-family: inherit;
+  color: #9d92b8;
+  background: none;
+  border: 1px solid #37285c;
+  border-radius: 6px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.ghost-btn:hover { color: #fff; border-color: #6f5da0; }
+
+/* Кошелёк-стакан */
+.wallet {
+  display: flex; align-items: center; gap: 10px;
+  padding: 8px 14px;
+  border: 2px solid #4a3a78;
+  border-radius: 10px;
+  background: #120c22;
+  min-width: 120px;
+  justify-content: center;
+}
+.coin-stack { display: flex; }
+.coin, .drag-coin {
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  background:
+    radial-gradient(circle at 32% 30%, #ffe9a8 0%, #f5c64c 45%, #c8922a 100%);
+  border: 3px solid #8a5f14;
+  color: #6b4a0d;
+  font-weight: bold;
+  font-size: 13px;
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: 0 2px 6px #00000088, inset 0 0 6px #fff5;
+}
+.coin { margin-left: -26px; cursor: grab; }
+.coin:first-child { margin-left: 0; }
+.coin:active { cursor: grabbing; }
+.coin-count { font-size: 20px; color: var(--neon-amber); font-weight: bold; }
+
+.drag-coin {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 0 8px 22px #000c, inset 0 0 6px #fff5;
+}
+
+/* ── Карусель автоматов ───────────────────────────── */
+.carousel-wrap {
+  width: 100%;
+  max-width: 1100px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+}
+.car-arrow {
+  font-family: inherit;
+  font-size: 30px;
+  color: var(--neon-cyan);
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  text-shadow: 0 0 10px var(--neon-cyan);
+}
+.carousel {
+  display: flex;
+  gap: 34px;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 26px 8px 34px;
+  scrollbar-width: none;
+  flex: 1;
+}
+.carousel::-webkit-scrollbar { display: none; }
+
+/* Кабинет */
+.cab {
+  scroll-snap-align: center;
+  flex: 0 0 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  filter: saturate(0.85);
+}
+.cab.active-cab { filter: none; }
+
+.cab-marquee {
+  width: 300px;
+  padding: 10px 6px;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: 0.18em;
+  font-size: 15px;
+  color: #fff;
+  background: linear-gradient(#3a2a66, #241a3e);
+  border: 3px solid #4a3a78;
+  border-radius: 10px 10px 0 0;
+  text-shadow: 0 0 8px var(--neon-cyan);
+}
+.cab-body {
+  width: 340px;
+  background: linear-gradient(#241a3e 0%, var(--cab-body) 70%, #140e24 100%);
+  border: 3px solid #37285c;
+  border-top: none;
+  border-radius: 0 0 14px 14px;
+  padding: 14px 18px 18px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+}
+.cab-screen {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  background: #000;
+  border: 4px solid #0a0714;
+  border-radius: 8px;
+  position: relative;
+  overflow: hidden;
+  box-shadow: inset 0 0 26px #000;
+}
+.cab-screen iframe {
+  width: 100%; height: 100%;
+  border: none;
+  background: #000;
+}
+/* Attract-надпись до монетки */
+.attract {
+  position: absolute; inset: 0;
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  gap: 10px;
+  background:
+    repeating-linear-gradient(0deg, #0000 0 2px, #0006 2px 3px),
+    radial-gradient(ellipse at center, #101024 0%, #05050c 80%);
+  z-index: 2;
+}
+.attract .game-ghost {
+  font-size: 30px;
+  color: #2b2b4a;
+  letter-spacing: 0.3em;
+  font-weight: bold;
+}
+.insert-coin {
+  color: var(--neon-amber);
+  font-weight: bold;
+  letter-spacing: 0.25em;
+  font-size: 17px;
+  text-shadow: 0 0 12px #ffb02e99;
+  animation: blink 1.2s steps(2) infinite;
+}
+@keyframes blink { 50% { opacity: 0.15; } }
+.soon .insert-coin { animation: none; color: #4a4066; text-shadow: none; }
+
+/* Щель монетоприёмника */
+.coin-door {
+  width: 120px;
+  padding: 8px 0 10px;
+  background: #0e0918;
+  border: 2px solid #37285c;
+  border-radius: 8px;
+  display: flex; flex-direction: column; align-items: center; gap: 5px;
+}
+.coin-slot {
+  width: 10px; height: 34px;
+  background: #000;
+  border-radius: 3px;
+  box-shadow: inset 0 0 6px #000, 0 0 0 3px #241a3e;
+  transition: box-shadow 0.15s;
+}
+.coin-door.hot .coin-slot { box-shadow: inset 0 0 6px #000, 0 0 0 3px var(--neon-amber), 0 0 16px #ffb02e88; }
+.coin-door-label { font-size: 10px; color: #6f6590; letter-spacing: 0.15em; }
+
+/* Табличка-лекция */
+.plaque-btn {
+  font-family: inherit;
+  font-size: 12px;
+  color: #cfc7e8;
+  background: #191128;
+  border: 1px solid #4a3a78;
+  border-radius: 6px;
+  padding: 7px 12px;
+  cursor: pointer;
+  letter-spacing: 0.08em;
+}
+.plaque-btn:hover { border-color: var(--neon-amber); color: #fff; }
+
+.plaque {
+  width: 100%;
+  background: linear-gradient(#f4e9c8, #e4d3a4);
+  color: #3a2c12;
+  font-size: 13px;
+  line-height: 1.5;
+  border-radius: 6px;
+  border: 2px solid #a88d4e;
+  padding: 12px 14px;
+  display: none;
+}
+.plaque.open { display: block; }
+.plaque b { display: block; margin-bottom: 6px; letter-spacing: 0.1em; }
+
+.hall-hint { color: #6f6590; font-size: 13px; padding-bottom: 16px; }
+
+/* Тост */
+#toast {
+  position: fixed;
+  left: 50%; bottom: 26px;
+  transform: translateX(-50%);
+  background: #241a3e;
+  color: #fff;
+  border: 2px solid var(--neon-amber);
+  border-radius: 10px;
+  padding: 12px 22px;
+  z-index: 90;
+  box-shadow: 0 0 24px #ffb02e55;
+}
