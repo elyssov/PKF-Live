@@ -5,7 +5,7 @@ for g in "$@"; do
   [ -s "$OUT/$g.jpg" ] && { echo "$g skip"; continue; }
   P="$LOCALAPPDATA/Temp/claude/edge-g2-$g"
   "$EDGE" --headless=new --disable-gpu --user-data-dir="$(cygpath -w "$P")" \
-    --window-size=1280,960 --virtual-time-budget=22000 \
+    --window-size=1280,960 --virtual-time-budget=${BUDGET:-22000} \
     --screenshot="$(cygpath -w "$OUT/_$g.png")" \
     "http://localhost:8137/games/arcade/index.html?game=$g&shot=1" 2>/dev/null &
   for i in $(seq 1 45); do [ -s "$OUT/_$g.png" ] && break; sleep 1; done
