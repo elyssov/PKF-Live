@@ -1,0 +1,197 @@
+████████████████████████████████████████
+█   ATARI · MISSILE COMMAND · 1980     █
+█   AUTHOR'S NOTE · DAVE THEURER       █
+█   RECORDED ~2010, SUNNYVALE, CA      █
+████████████████████████████████████████
+> I was 27 years old in 1979 when I
+> joined Atari's arcade division. They
+> needed a new title to compete with
+> Cinematronics' Space War cabinet.
+> Lyle Rains, my supervisor, handed
+> me a newspaper.
+
+> The newspaper had an article about
+> the United States' new Ballistic
+> Missile Early Warning System — BMEWS.
+> Rains pointed at the radar diagram
+> in the article — a map of the
+> United States with dotted lines
+> showing intercontinental ballistic
+> missile trajectories arcing over
+> the North Pole from the Soviet
+> Union — and he said:
+
+>   "Make a game out of THAT."
+
+> I made it. I called it MISSILE
+> COMMAND. It is the only game I
+> ever made that I would gladly
+> un-make.
+
+> ── PART 1: WHAT IT DEPICTED ──
+
+> Six cities. Three anti-missile
+> batteries. ICBMs raining down from
+> the top of the screen, leaving
+> dotted trails as they descended.
+> The player moved a crosshair with
+> a trackball — a real, weighty,
+> heavy-balled trackball that came
+> from radar consoles — and fired
+> counter-missiles by hitting one of
+> three buttons (one per battery).
+
+> Each counter-missile travelled
+> upward to the crosshair's last
+> position, then detonated in a slowly-
+> expanding nuclear explosion. If an
+> incoming ICBM happened to pass
+> through your explosion's blast
+> radius during the seconds it was
+> still expanding, the ICBM detonated
+> too — and your city was saved for
+> that volley.
+
+> If an ICBM reached the ground
+> uncountered, the city it landed on
+> detonated in a slower, fatter, redder
+> explosion. The city disappeared.
+> You could not rebuild it.
+
+> The wave ended when either all
+> ICBMs were gone OR all six cities
+> were gone. If you had cities left,
+> you advanced. Each new wave had
+> more ICBMs, faster, and after wave
+> three they could split mid-flight
+> into MIRV warheads — Multiple
+> Independent Re-entry Vehicles —
+> each of which now needed to be
+> countered separately.
+
+> Eventually you lost. Always.
+
+> ── PART 2: THE TWO MOST IMPORTANT
+>    PIXELS ──
+
+> When the player lost — when the
+> last of their six cities went up
+> in red — the screen flashed white.
+> Hold for one second. Then, in big
+> letters, centred on the screen,
+> two words:
+
+>     THE END.
+
+> Not "GAME OVER". Not "INSERT COIN".
+
+>     THE END.
+
+> I added those two words at 3 AM the
+> night before we shipped the master
+> ROM to the factory. Rains had not
+> approved them. Marketing did not
+> see them until they were on
+> cabinets. They could not unship
+> them.
+
+> The reason I added them was that
+> "GAME OVER" felt like a lie. The
+> game ended because nuclear war
+> had ended civilisation. There would
+> not be another game. There would
+> not be another coin slot to feed.
+> There was no civilisation left to
+> feed a coin slot.
+
+>     THE END.
+
+> The arcade cabinets shipped in
+> July 1980. The Cold War was at its
+> peak. The Soviets had invaded
+> Afghanistan eight months earlier.
+> The President had just announced a
+> boycott of the Moscow Olympics.
+> Children played MISSILE COMMAND in
+> Pizza Hut arcades while their
+> parents had genuine, sober
+> conversations about whether to
+> build a bunker in the basement.
+
+> ── PART 3: THE COST ──
+
+> I had nightmares for ten years.
+
+> The nightmares were always the same:
+> I would be standing in my front yard
+> in suburban California, and I would
+> look up, and I would see the dotted
+> arc of an ICBM trail, slow and
+> graceful, against a perfectly clear
+> blue sky, descending toward my house.
+> In the dream I would always
+> understand exactly where it was
+> going to hit. I would always have
+> roughly six seconds of warning. I
+> would always wake up at the second
+> just before impact.
+
+> The dream stopped in the early
+> 1990s, around the time the Soviet
+> Union dissolved. I do not know if
+> that is a coincidence. I suspect it
+> is not.
+
+> I left the game industry in 1984.
+> Designed for Symbolics, did some
+> early CGI work for film, retired
+> in the 2000s. MISSILE COMMAND
+> remains the most successful game
+> I ever made. It sold approximately
+> 19,000 arcade cabinets. Hundreds
+> of millions of quarters. Atari's
+> single biggest title that year.
+
+> I would still un-make it if I could.
+
+> ── PART 4: WHAT THIS TRIBUTE IS ──
+
+> Below this preamble is our tribute,
+> called MISSILE DEFENSE. Three
+> batteries. Six cities. ICBMs falling.
+> MIRVs from wave three. The same
+> blast-radius mechanic — your
+> counter-missile detonates where you
+> tapped, and the slowly-expanding
+> sphere catches whatever incoming
+> happens to pass through it during
+> its expansion.
+
+> The cities cannot be rebuilt.
+>
+> If all six are destroyed, the
+> screen will flash white. Then it
+> will go black. And in big white
+> letters, centred:
+
+>     THE END.
+
+> We kept Dave's two words.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> MISSILE COMMAND and related marks
+> belong to their respective rights-
+> holders. The
+> mechanic — point-and-click area-
+> denial counter-missile defence — has
+> been imitated countless times in
+> the intervening 46 years and is
+> effectively folk knowledge. Dave
+> Theurer was the original designer.
+> Our tribute is called MISSILE
+> DEFENSE. Concerns: elyssov@gmail.com.
+
+> _
+
+[ CLICK TO BEGIN ]

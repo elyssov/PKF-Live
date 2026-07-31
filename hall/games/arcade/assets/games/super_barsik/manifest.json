@@ -1,0 +1,244 @@
+{
+  "version": 2,
+  "style": "side-profile 8-bit platformer, SMB1 homage without copying",
+  "files": [
+    {
+      "file": "barsik_small_walk_0.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_small_walk_1.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_small_walk_2.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_small_walk_3.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_small_jump.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_small_idle.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "barsik_big_walk_0.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_big_walk_1.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_big_walk_2.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_big_walk_3.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_big_jump.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_big_idle.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_walk_0.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_walk_1.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_walk_2.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_walk_3.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_jump.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "barsik_fire_idle.png",
+      "size": [
+        26,
+        50
+      ]
+    },
+    {
+      "file": "muska_idle.png",
+      "size": [
+        22,
+        28
+      ]
+    },
+    {
+      "file": "tapok_walk_0.png",
+      "size": [
+        22,
+        22
+      ]
+    },
+    {
+      "file": "tapok_walk_1.png",
+      "size": [
+        22,
+        22
+      ]
+    },
+    {
+      "file": "krysa_pot_walk_0.png",
+      "size": [
+        28,
+        24
+      ]
+    },
+    {
+      "file": "krysa_pot_walk_1.png",
+      "size": [
+        28,
+        24
+      ]
+    },
+    {
+      "file": "krysa_pot_shell.png",
+      "size": [
+        28,
+        24
+      ]
+    },
+    {
+      "file": "vorona_flap_0.png",
+      "size": [
+        28,
+        16
+      ]
+    },
+    {
+      "file": "vorona_flap_1.png",
+      "size": [
+        28,
+        16
+      ]
+    },
+    {
+      "file": "rukavichka_idle_0.png",
+      "size": [
+        22,
+        24
+      ]
+    },
+    {
+      "file": "rukavichka_idle_1.png",
+      "size": [
+        22,
+        24
+      ]
+    },
+    {
+      "file": "milk_carton.png",
+      "size": [
+        16,
+        18
+      ]
+    },
+    {
+      "file": "mouse_running_0.png",
+      "size": [
+        16,
+        18
+      ]
+    },
+    {
+      "file": "mouse_running_1.png",
+      "size": [
+        16,
+        18
+      ]
+    },
+    {
+      "file": "star_sardine.png",
+      "size": [
+        20,
+        14
+      ]
+    },
+    {
+      "file": "green_yarn.png",
+      "size": [
+        18,
+        18
+      ]
+    },
+    {
+      "file": "crunch_kibble.png",
+      "size": [
+        14,
+        16
+      ]
+    }
+  ]
+}

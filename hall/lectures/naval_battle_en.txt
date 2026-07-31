@@ -1,0 +1,207 @@
+╭────────────────────────────────────╮
+│   TETRADKA · ЛЕНИНГРАД · ~1985     │
+│   GRADE 7B · BACK DESK · MARGINS   │
+╰────────────────────────────────────╯
+> Hello. I am a school notebook. I was
+> bought for 18 kopecks in the autumn
+> of 1984 at a state stationery shop on
+> Sadovaya street. I was meant to hold
+> chemistry homework. I hold mostly
+> Sea Battle.
+
+> ── PART 1: THE GAME OLDER THAN RADIO ──
+
+> Sea Battle, in its paper-and-pencil
+> form, is older than radio. Older than
+> radar. Older than the entire concept
+> of "naval intelligence" as a
+> discipline.
+
+> Two players. Two grids. Each player
+> draws ships secretly on their grid,
+> shows nothing to the opponent. Then
+> they take turns calling coordinates:
+> "A4". The opponent answers truthfully:
+> miss, hit, or sunk. The first player
+> to destroy the entire enemy fleet
+> wins.
+
+> The earliest documented version of
+> the game appears in late 19th century
+> Russia, in officers' clubs, played
+> as a passtime during long trans-
+> Siberian railway journeys. By the
+> 1930s it was the standard distraction
+> of bored schoolchildren across the
+> entire Soviet bloc. It survived two
+> world wars, the launch of the
+> Sputnik, the dissolution of the
+> USSR, and the rise of the Internet.
+
+> By 2026 my fellow tetradkas are
+> almost all gone — paper does not age
+> well — but the game is in every
+> child's brain who ever sat next to
+> a smarter friend during a long maths
+> lesson and quietly slipped a folded
+> sheet of grid paper across the desk.
+
+> ── PART 2: THE RUSSIAN FLEET ──
+
+> The classical Soviet ruleset is
+> precise:
+
+>   ONE 4-deck battleship    (1 ship,
+>                               4 cells)
+>   TWO 3-deck cruisers      (2 ships,
+>                               6 cells)
+>   THREE 2-deck destroyers  (3 ships,
+>                               6 cells)
+>   FOUR  1-deck submarines  (4 ships,
+>                               4 cells)
+>                            -----------
+>                            10 ships,
+>                            20 cells
+>                            on a 10x10
+>                            grid (10%
+>                            ocean
+>                            occupancy)
+
+> Ships are HORIZONTAL or VERTICAL,
+> never diagonal. Ships do NOT TOUCH
+> each other — not even at corners.
+> The diagonal-touch rule turns out
+> to be a deep gameplay tactic: when
+> you sink a ship, you know the
+> surrounding 8-cell border is
+> guaranteed water, and can stop
+> firing at it.
+
+> Western "Battleship" (the Hasbro
+> board game, 1967, plastic peg
+> version) uses a similar but not
+> identical fleet — typically one
+> 5-deck and one 4-deck, three 3-
+> decks, two 2-decks. Allows corner
+> touches. The naval-engineering
+> dialect is slightly different. The
+> game is the same game.
+
+> ── PART 3: WHAT IT FEELS LIKE ──
+
+> What it feels like, played on graph
+> paper in a notebook like me, is this:
+
+> Your friend draws their grid in
+> pencil. You draw yours. You fold the
+> paper so neither can see the other's.
+> Lessons begin. You both stare at the
+> blackboard with appropriate diligence
+> while quietly, under your desks, you
+> mark grids.
+
+> They call "B7". You check. It hits
+> the corner of your 2-deck destroyer.
+> You write a little dot in the cell
+> they shot, and announce: "Хит."
+> They mark the dot on their grid as
+> a confirmed hit. They take another
+> turn (Soviet rule: hits give you
+> another shot).
+
+> You call "F2". They check. Miss.
+> They write the miss. You write your
+> own miss on their grid.
+
+> By the end of the lesson maybe one
+> ship is sunk on each side. The whole
+> thing might take a week of lessons
+> to finish. The grids will be
+> covered in dots. The teacher will
+> never notice because the grids are
+> drawn small in the corner of an
+> ostensibly-chemistry assignment.
+
+> ── PART 4: WHAT WE BUILT ──
+
+> Below is Naval Battle. The classic
+> Soviet ruleset. The classic 10x10
+> grid. Your fleet (1×4, 2×3, 3×2,
+> 4×1) drawn from the bottom of the
+> screen. Your shot grid drawn at the
+> top. Tap an enemy cell to fire.
+> The AI tries to be a worthy
+> opponent.
+
+> The AI's strategy is the same as
+> any thinking player: shoot in a
+> diagonal "checkerboard" pattern
+> first (every 2x2 has at most one
+> cell of even a 1-deck), so within
+> 50 shots you've located every
+> possible ship. Once a hit lands,
+> shift to neighbour-cell follow-up
+> until the ship is sunk. After
+> sinking, mark the 8-cell border
+> as guaranteed water (so we don't
+> waste shots there). Then return to
+> checkerboard.
+
+> This isn't a hard AI. It's an AI
+> that plays the way every
+> 13-year-old in Russia learns to
+> play by the end of seventh grade.
+> You can beat it. Most of the time
+> you will, especially if you place
+> your ships smartly along the
+> edges (so the AI's checkerboard
+> takes longer to reach them).
+
+> ── PART 5: COMING SOON ──
+
+> We are also building a standalone,
+> full-feature Naval Battle as a
+> separate Android app. More
+> animations, more boards (asymmetric
+> arenas, archipelagos), Wi-Fi
+> two-player play, customisable
+> fleet rules. The standalone version
+> is going to be its own product.
+
+> What you have here, inside The
+> Pixel Campfire, is the museum-
+> curated classroom-tetradka version.
+> Pure, stripped, paper.
+
+> ── PART 6: WHY IT STILL WORKS ──
+
+> Because uncertainty is fun. Because
+> you and your opponent share a
+> hidden state that you reveal piece
+> by piece, like a slow stripping of
+> mutual mystery. Because every hit
+> teaches you something about the
+> ship you just hit. Because every
+> miss teaches you something about
+> where the ship isn't. Because the
+> game is, fundamentally, a tiny
+> course in Bayesian reasoning that
+> a 13-year-old can play under a
+> chemistry desk.
+
+> No game has ever improved on that.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> BATTLESHIP is a Hasbro trademark for
+> the plastic-peg board game. SEA
+> BATTLE, the paper-and-pencil game,
+> is a folk artefact — public domain,
+> beyond ownership. We use the name
+> "Naval Battle" to be respectful and
+> distinct. If Hasbro has any concern:
+> elyssov@gmail.com, gentle and quick.
+
+> _
+
+[ CLICK TO BEGIN ]

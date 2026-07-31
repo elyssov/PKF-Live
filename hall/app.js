@@ -13,19 +13,45 @@ const CAB_PHOTO = 'assets/bezels/tavern_tennis.png';
 const CAB_AR = '1144 / 1375';
 const CAB_GLASS = { l: 21.8, t: 28.2, w: 55.9, h: 39.5 };
 
-const CABS = [
-  {
-    id: 'pong', title: 'PONG · 1972',
-    playable: true, src: 'games/pong/index.html',
-    shot: 'assets/shots/pong.jpg',
-    lecture: { en: 'lectures/pong_en.txt', ru: 'lectures/pong_ru.txt' },
-  },
-  { id: 'snake', title: 'SNAKE · 1998', playable: false, shot: 'assets/shots/snake.jpg' },
-  { id: 'brixout', title: 'BRIXOUT · 1986', playable: false, shot: 'assets/shots/brixout.jpg' },
-  { id: 'jungle', title: 'JUNGLE RUN · 1982', playable: false, shot: 'assets/shots/jungle.jpg' },
-  { id: 'dungeon', title: 'DUNGEON · 1980', playable: false, shot: 'assets/shots/dungeon.jpg' },
-  { id: 'muncher', title: 'MUNCHER · 1980', playable: false, shot: 'assets/shots/digger.jpg' },
+// Вся полка музея: 27 автоматов, один wasm-дистр (games/arcade),
+// игра выбирается query-параметром. Порядок — как на полке C:\GAMES.
+const SHELF = [
+  ['snake', 'SNAKE · 1998'],
+  ['pong', 'PONG · 1972'],
+  ['arkanoid', 'BRIXOUT · 1986'],
+  ['tetris', 'BRIX · 1984'],
+  ['pitfall', 'JUNGLE RUN · 1982'],
+  ['naval_battle', 'NAVAL BATTLE · 1990'],
+  ['missile', 'MISSILE DEFENSE · 1980'],
+  ['rogue', 'DUNGEON · 1980'],
+  ['et', 'E.T. · 1982'],
+  ['exodus', 'EXODUS · 1991'],
+  ['digger', 'TUNNELER · 1983'],
+  ['frogger', 'HOPPER · 1981'],
+  ['minesweeper', 'MINES · 1990'],
+  ['paratrooper', 'PARATROOPER · 1982'],
+  ['river_raid', 'RIVER RUN · 1982'],
+  ['battle_city', 'STEEL FRONTIER · 1985'],
+  ['lunar', 'LUNAR LANDER · 1969'],
+  ['asteroids', 'ROCK STORM · 1979'],
+  ['pushbox', 'PUSHBOX · 1981'],
+  ['muncher', 'MUNCHER · 1980'],
+  ['pitfall_classic', 'PITJUMP · 1982'],
+  ['star_wing', 'STAR SWARM · 1981'],
+  ['cave', 'CAVE QUEST · 1977'],
+  ['tic_tac_toe', 'TIC-TAC-TOE · 1952'],
+  ['saloon', 'SALOON · 1983'],
+  ['tower_climb', 'IRON CLIMB · 1981'],
+  ['super_barsik', 'CAT BROS. · 1985'],
 ];
+
+const CABS = SHELF.map(([id, title]) => ({
+  id, title,
+  playable: true,
+  src: 'games/arcade/index.html?game=' + id + '&lang=en',
+  shot: 'assets/shots/' + id + '.jpg',
+  lecture: { en: 'lectures/' + id + '_en.txt', ru: 'lectures/' + id + '_ru.txt' },
+}));
 
 const COINS_PER_DOLLAR = 4;   // в долларе четвертаков ЧЕТЫРЕ (Юджин, калькулятор)
 const LS_KEY = 'pxcf-arcade-wallet';

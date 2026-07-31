@@ -1,0 +1,195 @@
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+█  IBM PCjr · PC SPEAKER LOG · 1983 ░░░  █
+█  CGA · 4 COLOURS · ONE-BIT TONE  ░░░░  █
+█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+> *BEEP*
+> Hello. I am a PC speaker. I have one
+> voice. I cannot produce chords, I
+> cannot produce volume, and I cannot
+> produce silence (I am either ON or
+> OFF; in between, I click at you).
+
+> Despite all this, in late 1983,
+> someone made me sing.
+
+> ── PART 1: WINDMILL SOFTWARE ──
+
+> Ottawa, Canada. 1981. A small
+> software company called Windmill
+> Software opens shop in a residential
+> townhouse. Two founders, one
+> programmer, a kitchen table. Their
+> first product is a clone of Lunar
+> Lander for the IBM PC. They sell
+> maybe 200 copies through a Toronto
+> hobbyist newsletter.
+
+> In 1983 — IBM has just announced
+> the PCjr, the consumer version of
+> the PC, intended to break into the
+> Apple II's grip on the home market
+> — Windmill releases a game called
+> DIGGER. CGA graphics: black, cyan,
+> magenta, white. Four colours. That's
+> the entire palette. PC speaker
+> audio. One voice, one note at a
+> time, no envelope, no decay.
+
+> Digger is a clone of an arcade
+> game called MR. DO! (Universal,
+> 1982), which itself riffs on Atari's
+> DIG DUG (1982). Underground maze.
+> You tunnel through dirt. Push
+> boulders to crush monsters. Collect
+> emeralds. Avoid being touched by
+> red enemies.
+
+> Three studios circling the same
+> mechanic in the same year is what
+> historians call "the arcade
+> convergence". Pac-Man had proved
+> that maze-chases sold. Dig-Dug
+> proved that destructible terrain
+> made them better. Mr. Do! proved
+> that boulders made them brilliant.
+> Digger added: a PC. A real personal
+> computer, not an arcade cabinet,
+> running in your living room, in
+> CGA, with PC speaker audio. The
+> first time the genre crossed over.
+
+> ── PART 2: WHY DIGGER MATTERED ──
+
+> Personal computers in 1983 were
+> mostly utility devices. Word
+> processing. Spreadsheets. Basic
+> programming. The argument from
+> parents to children was "the
+> computer is for school, not for
+> play". Digger was one of a small
+> handful of games that quietly
+> destroyed that argument.
+
+> A kid with five minutes between
+> school and dinner could fire up
+> DIGGER from a 5.25" floppy disk,
+> dig through three levels, push a
+> boulder onto a Nobbin, collect
+> sixteen emeralds, get crushed by
+> a Hobbin, restart. The whole loop
+> in five minutes. Repeat infinitely.
+
+> Windmill sold maybe 100,000 copies
+> of Digger across the PCjr's brief
+> commercial life (the PCjr was a
+> disaster — IBM's chiclet keyboard
+> was the wrong call — and the
+> machine was withdrawn after 18
+> months). They moved on to a few
+> more titles — STYX, FLOPPY FRENZY,
+> ROLLO AND THE BRUSH BROTHERS — but
+> Digger was the hit.
+
+> ── PART 3: 1998, THE GIFT ──
+
+> Windmill Software dissolved by the
+> mid-1980s. The founders moved on
+> to other projects. The source code
+> for Digger sat on a 5.25" floppy
+> disk in a box in someone's
+> basement.
+
+> In 1998, fifteen years after
+> Digger's original release, the
+> rights-holder — Andrew Mr. Jaffer,
+> one of the original creators —
+> formally released the Digger
+> source code into the public
+> domain. No restrictions. Freely
+> distributable. Modifiable. Use it
+> for anything.
+
+> This was, in 1998, an unusually
+> generous act. Most companies that
+> went out of business in the 80s
+> simply abandoned their software
+> behind copyright fences nobody
+> could climb. Jaffer made an active
+> decision: give Digger to the
+> world.
+
+> Hobbyists immediately built a
+> dozen ports. Digger Remastered.
+> Digger on Linux. Digger on Macintosh.
+> Digger on Windows. Digger in a
+> browser. The game is, in 2026,
+> probably more widely available
+> than it ever was at its
+> commercial peak.
+
+> ── PART 4: WHAT WE BUILT ──
+
+> Our TUNNELER is a chunky pixel
+> tribute to Digger. The grid is
+> larger (20 columns by 14 rows
+> instead of the original 15x10).
+> The dirt is brown. Boulders are
+> grey. Emeralds are green. Red
+> monsters chase you through your
+> own tunnels.
+
+> Direction pad to tunnel and
+> dodge. Fire to spit a fireball at
+> a monster (limited ammo).
+
+> Push a boulder onto an enemy to
+> crush them. The boulder falls
+> when its supporting dirt is
+> dug out from underneath. The
+> physics is two-cell-deep — the
+> moment the boulder has empty
+> space below it, gravity wins.
+> Be careful: gravity does not care
+> whether YOU are below it.
+
+> ── PART 5: WHY THE TIN VOICE ──
+
+> Our audio is intentionally
+> retained as a square-wave-ish
+> chiptune approximation. The
+> original DIGGER could only play
+> one note at a time, on a speaker
+> the size of a coin, in a PCjr
+> that cost $1300 in 1983 dollars.
+> Modern phones can synthesise
+> entire orchestras. We could have
+> given Tunneler a full orchestral
+> score.
+
+> We didn't. The point of the
+> tribute is to remember what it
+> felt like. What it felt like
+> was: BEEP-beep-BEEP-beep-CRASH-
+> beep, while the disk drive
+> clattered, in a dim corner of
+> the living room, while you were
+> supposed to be doing homework.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> DIGGER by Windmill Software (1983)
+> is in the public domain as of
+> 1998, by formal release. The
+> direct gameplay ancestors — MR.
+> DO! (Universal Games) and DIG-DUG
+> (Atari/Namco) — remain under
+> their respective trademarks. We
+> call our tribute TUNNELER to keep
+> the lineage clear. Hat off to
+> Andrew Jaffer for the public-
+> domain release in 1998. Concerns:
+> elyssov@gmail.com.
+
+> _
+
+[ CLICK TO BEGIN ]

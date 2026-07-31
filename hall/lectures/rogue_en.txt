@@ -1,0 +1,181 @@
+═════════════════════════════════════════
+   PDP-11/70  ::  BERKELEY  ::  1980.05
+   ROGUE.MEM/TAIL  --  STDIN ATTACHED
+═════════════════════════════════════════
+> @
+
+> That's me. I'm an at-sign on a
+> terminal. I have been an at-sign on
+> a terminal since the spring of 1980.
+
+> Let me tell you who built me, where
+> I live, and why I have ASCII children
+> in every modern game franchise you
+> have ever heard of.
+
+> ── PART 1: THE PDP-11 BASEMENT ──
+
+> University of California, Berkeley.
+> Computer Science Department. Basement
+> of Cory Hall. Three undergraduates —
+> Michael Toy, Glenn Wichman, Ken
+> Arnold — share a VT100 terminal
+> connected to a PDP-11/70 mainframe
+> running BSD UNIX.
+
+> Toy and Wichman, two years earlier
+> as freshmen at the University of
+> California, Santa Cruz, had spent
+> hundreds of hours playing a text
+> adventure called Adventure (Crowther
+> and Woods, 1976). They had loved
+> Adventure but found it frustrating
+> that you could not REPLAY it
+> meaningfully — once you knew the
+> map, the game was solved.
+
+> They wondered: what if every time
+> you played, the dungeon was
+> DIFFERENT? Re-generated randomly?
+> Same rules, same monsters, same
+> items, but a brand-new floor plan?
+
+> They started writing me on the VT100
+> in their dorm room. Toy did the C
+> code. Wichman did the level
+> generation algorithm. Ken Arnold,
+> the systems wizard, later wrote the
+> CURSES library that I used to draw
+> myself on the terminal — and which
+> would go on to underpin half the
+> world's terminal applications for
+> the next forty years.
+
+> I was finished in early 1980. They
+> compiled me and submitted me to the
+> BSD distribution. By 1984 I was
+> shipping with every BSD UNIX system
+> in the world.
+
+> ── PART 2: WHAT I AM ──
+
+> I am five floors of randomly-
+> generated dungeon. Each floor has
+> between four and nine rectangular
+> rooms, connected by corridors.
+> Floors contain MONSTERS (letters),
+> POTIONS, GOLD, and STAIRS (>
+> descending to the next floor).
+
+> On floor five, somewhere, there is
+> an AMULET. Pick it up. Walk back up
+> to floor one. Exit the dungeon. You
+> win.
+
+> Or — die at any point. The dungeon
+> erases. Restart from scratch with a
+> brand-new five-floor maze.
+
+> No save game. No load. No reset.
+> If your hit points reach zero, you
+> are gone. The map you learned, the
+> monsters you slew, the gold you
+> hoarded — all of it returns to
+> entropy. Begin again.
+
+> This is called PERMADEATH. I
+> invented it.
+
+> ── PART 3: THE TURN-BASED CLOCK ──
+
+> The game is turn-based, not real-
+> time. Every time YOU take an action
+> — move one square, attack, drink a
+> potion, descend stairs — EVERY
+> MONSTER also takes one action. The
+> whole world tick-tocks forward in
+> lockstep with your decisions.
+
+> This gives you infinite thinking
+> time on any single turn, but every
+> decision is permanent.
+
+> ── PART 4: THE OTHER MAJOR THING ──
+
+> I was open-sourced under BSD in
+> 1986, after the team graduated. The
+> source code went onto the BSD
+> Software Distribution tape. Anyone
+> could read me, modify me, build
+> derivatives.
+
+> What followed was the explosion of
+> an entire genre of games that
+> historians now call "roguelikes" —
+> games that share my key features:
+> procedurally-generated maps, turn-
+> based movement, permadeath, ASCII
+> or grid graphics, deep mechanical
+> complexity.
+
+> The direct descendants:
+>   NETHACK (1987) — me, with seven
+>     times the complexity.
+>   ANGBAND (1990) — me, in Middle-
+>     earth.
+>   ADOM (1994) — me, with character
+>     classes, races, alignments.
+
+> The spiritual descendants —
+> commercial mass-market success:
+>   DIABLO (1996) — Blizzard's iconic
+>     action-RPG. David Brevik calls
+>     it "Rogue with graphics".
+>   DWARF FORTRESS (2006) —
+>     civilisation simulator.
+>   SPELUNKY (2009), FTL (2012),
+>   HADES (2020), SLAY THE SPIRE
+>   (2019), DEAD CELLS (2018) — all
+>   of them carry a thread of my DNA.
+
+> If you have ever played a game with
+> "randomly generated", "permadeath",
+> or "run-based" in its marketing
+> copy, you have played one of my
+> children.
+
+> ── PART 5: HOW TO READ ME ──
+
+> The screen below is a terminal. The
+> walls are # (hash). The floor is .
+> (dot). The corridors are also .
+> connected between rooms. YOU are @
+> (at-sign). MONSTERS are uppercase
+> letters. ITEMS are punctuation.
+
+> WALK INTO a monster to attack it.
+> WALK ONTO an item to pick it up.
+> WALK INTO > (stairs down) to descend.
+> WALK INTO & (the amulet) to pick it
+> up, then walk back UP to floor one
+> via the stairs to win.
+
+> Five floors. Permadeath. No load.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> ROGUE is open source under BSD
+> licence. We call our tribute DUNGEON
+> only because the modern game market
+> is full of "Rogue [something]" titles
+> (Rogue Legacy, Rogue Heroes, Rogue
+> Knight, etc.) and we did not want
+> to add to the confusion. Toy,
+> Wichman, and Arnold — wherever they
+> are in 2026 — thank you. We will
+> always speak your names at the
+> campfire.
+
+> _
+
+[ CLICK TO BEGIN ]

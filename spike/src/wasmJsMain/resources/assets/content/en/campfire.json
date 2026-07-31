@@ -1,0 +1,287 @@
+{
+  "campfires": [
+    {
+      "gameKey": "snake",
+      "title": "Snake — The Great Nokia",
+      "story": [
+        "Snake is older than mobile phones. It first appeared in 1976 as 'Blockade' in arcades. But it crawled into a billion human pockets only in 1997, when Nokia bundled it into the 6110.",
+        "Then came the Nokia 3310 in 2000. 126 million units sold. A monochrome 84×48 screen running Snake II under the keypad. A phone you charged once a week. A phone that survived washing machines, freezers, and being dropped onto concrete.",
+        "Memes: 'Drop a 3310 and the floor cracks.' 'On the floor of the Mariana Trench: three whales and one 3310.' 'Thor used it instead of his hammer.'",
+        "Grandmothers in villages still keep one in a drawer, waiting for a call. It boots in seconds. It probably still has Snake II on it.",
+        "This game is a love letter to that phone — and to the first mobile game in the world that a billion people played under their school desks."
+      ],
+      "disclaimer": "Snake is a public-domain game mechanic. 'Nokia' is a registered trademark of Nokia Corporation; we mention them only in love and reverence. No affiliation. If a rights-holder has any concern — elyssov@gmail.com."
+    },
+    {
+      "gameKey": "tetris",
+      "title": "Brix — The Chinese Brick Game",
+      "story": [
+        "While the West played Game Boy and Game Gear, the East played THIS. A Chinese brick-shaped handheld with a green LCD and a single dot-matrix screen — Tetris, Race, Snake, Shooter, all rendered in the same blocky pixels.",
+        "Tens of millions of these shipped from Shenzhen factories from the late 80s through the 2000s. They sold for a dollar. They ran on two AA batteries for weeks. The screen had 'phantom' cells visible even when off — ghosts of every block that ever fell.",
+        "The brick game wasn't a knock-off of anything in particular. It was its own genre — affordable, durable, multi-game. A child of 1995 in Hanoi or Almaty or Tashkent likely held one before they held any other game device.",
+        "What you're holding now is our love letter to that brick. The chassis, the buttons, the LIGHT switch (colour↔monochrome). Pick a game with ◀▶, press START or ROTATE to play. The dots are big on purpose — that's how it was."
+      ],
+      "disclaimer": "Tetris is a registered trademark of The Tetris Company; this collection is a tribute, not an official port. Game mechanics aren't copyrightable but names are — that's why we call it 'Brix'. Concerns? elyssov@gmail.com."
+    },
+    {
+      "gameKey": "pong",
+      "title": "Paddles — The Coffee Can",
+      "story": [
+        "Sunnyvale, California, 1972. Nolan Bushnell and Al Allcorn assemble a wooden box with a black-and-white TV. On the screen: two white rectangles and a square. They cut a slot in a coffee can for quarters and drop it into Andy Capp's Tavern.",
+        "Three days later the bar owner calls: 'Your machine is broken.' Bushnell drives over to fix it. The coffee can is overflowing with quarters — the coin slot is jammed solid.",
+        "That was PONG. That was the birth of Atari. That was the moment video games became a commercial industry.",
+        "First to 11 wins. No power-ups. No physics tricks. Just paddles and a ball. As pure as it gets."
+      ],
+      "disclaimer": "Pong is an Atari trademark; we use the name 'Paddles' to be clear this is a tribute. The mechanic of two paddles and a ball is older than copyright."
+    },
+    {
+      "gameKey": "arkanoid",
+      "title": "Brick Buster — Taito's Mirror Ball",
+      "story": [
+        "Taito, Japan, 1986. Arkanoid takes the basic Breakout formula and adds power-ups, named bricks, a story (a ship called the Vaus escaped a destroyed mothership and is now drifting through space breaking energy bricks).",
+        "Power-ups that drop from broken silver bricks: WIDE (longer paddle), GUN (shoot bricks), MULTI (extra balls), SLOW (slower ball), LASER, FAST, CATCH (sticky paddle).",
+        "In the arcade you played it with a spinner — a real metal knob. We use the d-pad. Press ● to launch, to shoot the gun, to release a held ball.",
+        "Smash every brick to advance."
+      ],
+      "disclaimer": "Arkanoid is a Taito trademark. The brick-and-paddle genre dates to Breakout (1976); we call our version 'Brick Buster'."
+    },
+    {
+      "gameKey": "pitfall",
+      "title": "Jungle Run — The Whole Atari 2600 Squeezed",
+      "story": [
+        "This game isn't a port of any one Atari 2600 title. It's a love letter to all of them at once — Pitfall! (1982), Pitfall II: Lost Caverns (1984), Jungle Hunt (1982), H.E.R.O. (1984), Montezuma's Revenge.",
+        "All five squeezed every drop of graphics out of a 128-byte RAM machine. They proved that a jungle, a hero, vines, scorpions, pits, and gold could fit in 4 kilobytes — and still feel alive.",
+        "Our version takes the visual ceiling of 1982 as the START line and walks past it. Same vibe. Different game.",
+        "GREEN jumps over pits and crocs. RED fires the revolver. Run as far as you can."
+      ],
+      "disclaimer": "Pitfall is an Activision trademark; the games above belong to their respective rights-holders. We claim no affiliation — only inspiration."
+    },
+    {
+      "gameKey": "pitfall_classic",
+      "title": "Pit Jumper — Activision 1982",
+      "story": [
+        "Pitfall! by David Crane, Activision 1982. The first hit from the company founded by Atari programmers who'd quit to make games WITHOUT selling hardware — the world's first third-party game studio.",
+        "Crane wrote Pitfall! in 1000 bytes of code. 1000 bytes. That fits inside this paragraph twice. With it: 256 screens, 32 treasures, scrolling jungle, vine swings, crocodiles, scorpions, brick walls.",
+        "It sold 4 million cartridges. Activision became the second-biggest video game company in America in one year.",
+        "Find 24 treasures within 20 minutes. The screens loop, but every screen kills you a slightly new way."
+      ],
+      "disclaimer": "Pitfall! is an Activision trademark. We call our tribute 'Pit Jumper' and treat the original as the cultural ancestor it is."
+    },
+    {
+      "gameKey": "naval_battle",
+      "title": "Naval Battle — Grid Paper at the Back of Class",
+      "story": [
+        "This is what your grandparents played in school. Two notebooks. Two pencils. Ten-by-ten grid. 'A4? Miss.' 'C7? Hit.' 'F2? Sunk.'",
+        "Battleship as a paper game predates radio. The Soviet generation in particular played it through every dull lecture from the 1960s through the 1990s.",
+        "Russian fleet rules: 1×4-deck, 2×3-deck, 3×2-deck, 4×1-deck = 10 ships, 20 cells. Ships can't touch even diagonally.",
+        "We're also building a NATIVE Naval Battle as a separate game — more art, more modes, multiplayer over Wi-Fi. Coming."
+      ],
+      "comingSoon": "Native Naval Battle — full standalone reimagining",
+      "disclaimer": "Battleship is a Hasbro trademark; the paper-and-pencil game it's based on is folk heritage."
+    },
+    {
+      "gameKey": "missile",
+      "title": "Missile Defense — Cold War in 80 Pixels",
+      "story": [
+        "Missile Command, Atari 1980, arcade. Six cities. Three batteries. ICBMs raining down. You moved the crosshair with a real trackball — a heavy one, weighted like a billiard ball — and lobbed counter-missiles into incoming warheads.",
+        "When all six cities were destroyed, the screen flashed 'THE END.' Not 'GAME OVER' — 'THE END.' The designer, Dave Theurer, was haunted by Cold War nuclear dreams for years after making this.",
+        "It's the only game in history where you fight the apocalypse instead of running from it. And you always lose, eventually."
+      ],
+      "disclaimer": "Missile Command is an Atari trademark. We call ours 'Missile Defense' and let it speak for itself."
+    },
+    {
+      "gameKey": "rogue",
+      "title": "Dungeon — Berkeley, 1980, ASCII",
+      "story": [
+        "Berkeley, California, 1980. Three students — Glenn Wichman, Michael Toy, Ken Arnold — write a dungeon-crawler on a DEC PDP-11. No graphics. The map is ASCII characters: # walls, . floors, @ you, B/O/R/S monsters, & the Amulet of Yendor at the bottom.",
+        "Every floor is procedurally generated. Every death is permanent. You don't save and reload — when you die, the dungeon is gone forever.",
+        "It was open-sourced under BSD in 1986 and became the seed of a whole genre: 'roguelikes'. Direct descendants: Nethack, Angband, ADOM. Spiritual descendants: Diablo (yes, Diablo's lineage starts here), Dwarf Fortress, Spelunky, Hades, Slay the Spire, Dead Cells.",
+        "Every procgen + permadeath game in the last 40 years has Rogue in its bloodline. You're playing a piece of computing history."
+      ],
+      "disclaimer": "Rogue is open source. We use the name 'Dungeon' to avoid confusion with the dozens of modern 'Rogue' titles, but we tip our hat to the 1980 original."
+    },
+    {
+      "gameKey": "et",
+      "title": "ExTer — The Worst Game of 1982",
+      "story": [
+        "Summer 1982. Steven Spielberg's E.T. is the highest-grossing film of the year. Atari CEO Ray Kassar pays Spielberg 21 million dollars for the rights and orders a Christmas game.",
+        "Programmer Howard Scott Warshaw is given five weeks and three days to make it. He works 20-hour days, alone, weeping at his calling card terminal. He ships on time.",
+        "Atari prints 5 million cartridges. By February they're all in returns piles. The game is unplayable: an alien falls into pits he can't climb out of. Kids cry on Christmas morning.",
+        "The cartridges are buried in a New Mexico landfill, covered in concrete. Atari denies it for 30 years. In 2014, archaeologists dig them up. They're real. The legend is real.",
+        "What you're holding is a tribute. A faithful reconstruction of the worst commercial game ever made. The point is not to play it well — the point is to FEEL why an industry crashed because of it."
+      ],
+      "disclaimer": "We are not affiliated with the 1982 film or its rights-holders (Universal). The film is mentioned only as a cultural artefact. The game cartridge is a real, well-documented historical disaster. Concerns? elyssov@gmail.com."
+    },
+    {
+      "gameKey": "exodus",
+      "title": "Exodus — Lemmings, with a Censor",
+      "story": [
+        "DMA Design, Dundee, Scotland, 1991. Lemmings. A ritual: a column of little creatures walks across your screen, off any cliff, into any spike. Your job is to assign them roles — builder, blocker, basher, miner — to guide them to the exit alive.",
+        "We've turned the lemmings into refugees and the cliff into the Russian internet. The advancing Cheburashka labeled CENSOR is the regulatory agency that's been blocking VPNs and websites since 2017. The bridges and ladders are the workarounds.",
+        "It's a satire. The point isn't to dunk on anyone — the point is that the path to freedom is sometimes built out of three planks and one good idea.",
+        "Save at least 30% of the crowd. Don't let the censor catch them. Place tools by tapping the toolbar, then tapping the map."
+      ],
+      "disclaimer": "Lemmings is a DMA Design / Psygnosis trademark. Cheburashka is a Soviet children's character (Eduard Uspensky). RKN (Roskomnadzor) is the Russian Federal Service for Supervision of Communications. Satire is protected speech in most jurisdictions; we mean no malice."
+    },
+    {
+      "gameKey": "lunar",
+      "title": "Moon Lander — From PDP-8 to NASA",
+      "story": [
+        "October 1969. A 17-year-old high schooler named Jim Storer writes a text-based game called LUNAR in FOCAL on a DEC PDP-8. It's three months after Apollo 11. The game asks you to choose how much fuel to burn each ten-second tick. Reach the surface alive.",
+        "It spread on punch tape and teletype paper through schools across America. Every high school that had a computer — and there weren't many — played it.",
+        "Atari turned it into a graphical arcade game in 1979. A vector CRT. A real flight stick with a thrust trigger. One of the last great vector arcades.",
+        "Lunar Lander is the great-grandfather of every flight simulator, every physics-puzzle game, every Kerbal Space Program. It's also the first game where the goal was MATH, not reflexes.",
+        "Land slow, land level, land on a pad. Off-pad costs you half. Crashing costs you everything."
+      ],
+      "disclaimer": "Lunar Lander is an Atari trademark for the arcade title. The text game LUNAR (Storer 1969) is in the public domain. We salute both."
+    },
+    {
+      "gameKey": "battle_city",
+      "title": "Tank Brigade — Bunkers in 1985",
+      "story": [
+        "Namco, Japan, 1985. Battle City. The NES version landed in millions of homes — and, through the cloned Dendy console, in millions of Soviet living rooms too.",
+        "Two players, two D-pads, one screen. Player 1 yellow, Player 2 green. Defend the eagle at the bottom. Don't let an enemy tank reach it. Don't let your friend take both controllers either.",
+        "This was a winter-evening ritual for a generation. The cold outside, the cathode-ray glow inside, a brother and a friend on the carpet shoulder to shoulder, sharing one bag of crisps and twenty levels of stages.",
+        "We're going to add Wi-Fi two-player co-op someday. The original was two-handed by design — it should be two-handed again."
+      ],
+      "comingSoon": "Wi-Fi co-op + a standalone Tanks of Thea (our native take)",
+      "disclaimer": "Battle City is a Namco trademark. Dendy was an unauthorised clone of the NES in the post-Soviet space. The childhoods are ours."
+    },
+    {
+      "gameKey": "asteroids",
+      "title": "Rock Storm — Vector White on Black",
+      "story": [
+        "Atari, 1979. Vector graphics. White lines on pure black. The most distinct visual style any arcade ever had — until LCD killed the CRT.",
+        "You're a triangular ship in deep space. Big rocks split into medium rocks split into small rocks. UFOs occasionally drift in and shoot at you.",
+        "Hyperspace was a desperation button — you vanished and reappeared somewhere random. Sometimes that was inside another rock. We removed it. Down does nothing. Sorry, 1979.",
+        "The screen wraps. The thrust is real Newtonian inertia. There is no friction. Once you push, you keep going. This was MIT-physics, not arcade-physics."
+      ],
+      "disclaimer": "Asteroids is an Atari trademark. We use 'Rock Storm' and salute the original."
+    },
+    {
+      "gameKey": "muncher",
+      "title": "Muncher — 1980, Tokyo, A Pizza Missing a Slice",
+      "story": [
+        "Namco, Tokyo, 1980. Toru Iwatani designs a game for women — because the arcades of the time were full of war games for men, and he wanted his sister to have something to play.",
+        "The hero is a pizza missing a slice — that's where he got the shape. The Japanese word 'paku-paku' means 'chomp-chomp.' The original name was Puck Man. American distributors changed the P to a C because they were worried about graffiti.",
+        "The four ghosts — Blinky, Pinky, Inky, Clyde — each have a distinct AI personality. Blinky chases directly. Pinky tries to ambush from in front. Inky uses Blinky's position to flank. Clyde wanders randomly when far, chases when close.",
+        "Our muncher is a square chomper-bot, not a yellow circle. The ghosts are 'spooks.' The maze is our own. The chase is universal."
+      ],
+      "disclaimer": "Pac-Man is a Namco trademark. We don't use the name or the sprites — only the maze-chase gameplay, which is public-domain."
+    },
+    {
+      "gameKey": "minesweeper",
+      "title": "Mines — The Windows 3.1 Tutorial",
+      "story": [
+        "Robert Donner, Microsoft, 1989. Originally for Windows 3.1. Officially: a casual puzzle game. Unofficially: the world's most successful right-click tutorial.",
+        "Microsoft included Minesweeper (and Solitaire, and FreeCell) to teach corporate office workers how to use a mouse. Solitaire taught drag-and-drop. Minesweeper taught right-click for flagging. Both made it onto every Windows PC for the next 30 years.",
+        "Click a cell, see a number — that's how many mines are in the 8 neighbouring cells. Use logic to deduce which cells are safe. Long-press to flag a mine.",
+        "First click is always safe. After that — pure logic. There are positions where you genuinely have to guess. Mathematicians have studied this game seriously."
+      ],
+      "disclaimer": "Minesweeper concept is folk; the Microsoft implementation is theirs."
+    },
+    {
+      "gameKey": "frogger",
+      "title": "Road Hopper — Konami, 1981",
+      "story": [
+        "Konami, 1981. A frog crossing a busy road, then a dangerous river — by hopping on logs and turtles. Five home alcoves at the top to fill.",
+        "First arcade game with a top-down view AND vertical scrolling. First arcade game where you played a single small creature whose only goal was to NOT BE DESTROYED.",
+        "Sega licensed it for the West. The cabinet had a frog-shaped joystick that hurt your hand. The Atari 2600 port was the second-best-selling cartridge of 1982 (after — yes — E.T., which sold fewer because of returns).",
+        "Don't get hit. Don't fall in the river. Make it home."
+      ],
+      "disclaimer": "Frogger is a Konami trademark. 'Road Hopper' is our tribute."
+    },
+    {
+      "gameKey": "paratrooper",
+      "title": "Paratrooper — Greene, 1982",
+      "story": [
+        "Greg Kuperberg... no, Greg Kanaga? — actually it was Greg Kuperberg AT first... no. OK: written by Greg Kuperberg's brother. Honestly, the credit is debated. What matters: Orion Software, 1982, CGA-graphics for the IBM PC.",
+        "Four-colour CGA palette. Cyan sky. White parachutes. A red anti-aircraft gun at the bottom centre — you rotate the barrel left and right, you fire upward.",
+        "Helicopters cross from both sides, dropping paratroopers. If four troopers land near your gun, they swarm it and you lose. If a jet sneaks through unkilled, it bombs you.",
+        "One of the first PC games that 'felt arcade.' We give you a choice of control style on the title — tap to aim, or arrows + fire."
+      ],
+      "disclaimer": "Paratrooper is a 1982 game by Orion Software / Greg Kuperberg. We don't reuse any code or art."
+    },
+    {
+      "gameKey": "river_raid",
+      "title": "River Run — Carol Shaw, 1982",
+      "story": [
+        "Activision, 1982. Designed and programmed by Carol Shaw — the first female game designer credited on a commercial title. River Raid sold over a million cartridges.",
+        "You pilot a jet down a winding river. Shoot enemy boats, helicopters, jets. The river narrows and widens. Bridges block your path — you can blow them up. Fuel barrels along the way let you refuel mid-flight.",
+        "Carol Shaw's innovation was a deterministic random map generator — the river is the SAME river every time, but it takes 16 KB of cartridge ROM to LOOK like procedurally varied terrain.",
+        "She retired from games at 35. Spent the next 30 years on quilting. She gets credit. She earned it."
+      ],
+      "disclaimer": "River Raid is an Activision trademark. We salute Carol Shaw without using her code."
+    },
+    {
+      "gameKey": "digger",
+      "title": "Tunneler — Windmill, 1983",
+      "story": [
+        "Windmill Software, Canada, 1983. CGA graphics. Originally for the IBM PCjr.",
+        "Dig through dirt. Push boulders to crush monsters (red nobbins). Collect emeralds. Avoid red enemies that chase you through your tunnels.",
+        "It was one of the first PC games that felt MAYBE-FUN on the IBM PC's tinny one-bit speaker. Windmill Software is also famous for releasing their source code into the public domain in 1998. We didn't use it, but we salute it."
+      ],
+      "disclaimer": "Digger by Windmill Software is in the public domain since 1998. We call ours 'Tunneler' to avoid confusion with other 'Digger' games."
+    },
+    {
+      "gameKey": "pushbox",
+      "title": "Pushbox — Hiroyuki Imabayashi, 1982",
+      "story": [
+        "Hiroyuki Imabayashi, Thinking Rabbit, Japan, 1982. Sokoban. The name means 'warehouse keeper' in Japanese.",
+        "You're a warehouse worker. Push crates onto goal squares. You can only PUSH, never pull. Box against a wall in the wrong direction = puzzle dead, restart the level.",
+        "Sokoban is computationally PSPACE-hard. Optimal-move solutions for some puzzles take supercomputers to compute. It's one of the most-studied games in academic computer science.",
+        "We have 30 hand-tuned levels. The first ones teach. The last ones make you sit and think."
+      ],
+      "disclaimer": "Sokoban is a Falcon Co. trademark in Japan. The gameplay is in the public domain; we call ours 'Pushbox'."
+    },
+    {
+      "gameKey": "lunar_kept",
+      "title": "lunar_kept",
+      "story": [""]
+    },
+    {
+      "gameKey": "star_wing",
+      "title": "Star Swarm — Galaga's Hive",
+      "story": [
+        "Namco, Japan, 1981. Galaga, sequel to Galaxian (1979). Vertical-scroll shooter. Aliens swoop down in elaborate flight patterns, then settle into a hive formation at the top and dive at you.",
+        "The signature mechanic: a 'mother' ship occasionally swoops down with a tractor beam. If she catches your fighter, you lose a life. But if you kill her WHILE she's holding your fighter — your fighter rejoins, doubled. You can now fire two shots at a time. Twice the firepower for the same risk.",
+        "It was a perfect Japanese arcade puzzle: deliberate sacrifice for reward. We're not the only ones who borrowed it — every shoot-'em-up since uses some echo of formation-flight + capture."
+      ],
+      "disclaimer": "Galaga is a Namco trademark. We use 'Star Swarm'."
+    },
+    {
+      "gameKey": "cave",
+      "title": "Cave Quest — Crowther & Woods, 1976",
+      "story": [
+        "Will Crowther, 1976. A Bell Labs programmer and amateur caver. He'd just divorced. He wrote a text adventure for his daughters about a cave he knew in Kentucky — Bedquilt Cave, part of Mammoth Cave system, the longest cave on Earth.",
+        "The original was 700 lines of FORTRAN on a PDP-10. It had real maps of real cave passages mixed with magic and dwarves.",
+        "Don Woods at Stanford expanded it in 1977 — more puzzles, more treasure, a fantasy overlay. The expanded version, 'Adventure,' became a viral hit on every university mainframe in the US.",
+        "Every text adventure since traces back to here. Zork. The Hitchhiker's Guide to the Galaxy. Every interactive-fiction game. Every modern narrative game. All cave-shaped.",
+        "Type by tapping VERB + NOUN. GO NORTH. TAKE LAMP. LIGHT LAMP. Save the four treasures. Return to the entrance."
+      ],
+      "disclaimer": "Colossal Cave Adventure is in the public domain; we made our own 20-room version and called it 'Cave Quest'."
+    },
+    {
+      "gameKey": "saloon",
+      "title": "Saloon — Tapper's Bar, 1983",
+      "story": [
+        "Bally Midway, 1983. Marvin Glass design. Tapper.",
+        "You play a bartender. Four long bars stretch across the screen. Thirsty patrons walk toward you. You pull the tap, send a sliding mug down the bar to them, and catch the empty mug as it comes back. Don't let a mug slip off. Don't let a customer reach the counter.",
+        "The arcade cabinet had a real beer-tap-shaped controller — a tall lever with a tension sensor that registered how hard you pulled it. The original was sponsored by Budweiser; the family-arcade re-release was renamed 'Root Beer Tapper.'",
+        "One of the earliest examples of product placement in games. Also one of the most physically-tactile arcade machines of the 80s. The bar is yours."
+      ],
+      "disclaimer": "Tapper is a Bally Midway / Sega trademark. We call ours 'Saloon'. We are not affiliated with Anheuser-Busch."
+    },
+    {
+      "gameKey": "tic_tac_toe",
+      "title": "Tic-Tac-Toe — OXO, 1952",
+      "story": [
+        "Tic-tac-toe is ancient. Romans played 'Terni Lapilli' — three pebbles — before the year zero. School kids have drawn it on graph paper, in dust, in margins of books, for millennia.",
+        "And it was one of the FIRST computer games ever written. A.S. Douglas, Cambridge University, 1952. He wrote a tic-tac-toe game called OXO on the EDSAC computer for his PhD thesis on human-computer interaction. The display was a 35×16 CRT. Input was via the dial of a rotary telephone.",
+        "Tic-tac-toe is 'solved' — with perfect play by both sides, it's always a draw. That means the best games are with another human, not a computer. So we offer both modes: vs CPU (with deliberately weak AI so winning feels good) and vs PLAYER (pass-and-play on one device).",
+        "Cross. Circle. Three in a row. As simple as it gets. And, when played with someone you love, infinitely repeatable."
+      ],
+      "disclaimer": "Tic-tac-toe is folk heritage. OXO (Douglas, 1952) is historic."
+    }
+  ]
+}

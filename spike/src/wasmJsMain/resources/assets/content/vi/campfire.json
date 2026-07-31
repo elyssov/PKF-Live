@@ -1,0 +1,258 @@
+{
+  "campfires": [
+    {
+      "gameKey": "snake",
+      "title": "Rắn săn — Nokia vĩ đại",
+      "story": [
+        "Rắn săn xuất hiện trong máy arcade 'Blockade' năm 1976. Nhưng nó chỉ bò vào túi của một tỷ người vào năm 1997, khi Nokia tích hợp nó vào model 6110.",
+        "Sau đó là Nokia 3310 (2000) — 126 triệu chiếc bán ra. Màn hình đen trắng 84×48. Một chiếc điện thoại sạc một lần một tuần. Sống sót qua máy giặt, tủ đông, rơi xuống bê tông.",
+        "Trò chơi này là một bức thư tình gửi đến chiếc điện thoại đó — và đến trò chơi di động đầu tiên trên thế giới mà một tỷ người chơi dưới bàn học."
+      ],
+      "disclaimer": "Snake là một cơ chế trò chơi public domain. 'Nokia' là thương hiệu của Nokia Corporation; chúng tôi nhắc đến với tình yêu và sự tôn trọng."
+    },
+    {
+      "gameKey": "tetris",
+      "title": "Brix — máy xếp gạch Trung Quốc",
+      "story": [
+        "Trong khi phương Tây chơi Game Boy, phương Đông chơi THIS. Máy cầm tay hình viên gạch từ Trung Quốc với màn hình LCD xanh — Tetris, Race, Snake, Shooter — tất cả vẽ bằng các điểm trên cùng một ma trận.",
+        "Hàng chục triệu chiếc xuất xưởng từ Thâm Quyến từ cuối 80s đến 2000s. Giá một đô-la. Chạy hai pin AA cả tuần. Một đứa trẻ ở Hà Nội 1995 chắc chắn đã cầm cái này trước khi cầm bất kỳ thiết bị chơi game nào khác.",
+        "Đây là bức thư tình gửi đến viên gạch đó."
+      ],
+      "disclaimer": "Tetris là thương hiệu của The Tetris Company; đây là tribute, không phải port. Tên gọi 'Brix' để tránh nhầm lẫn."
+    },
+    {
+      "gameKey": "pong",
+      "title": "Paddles — hộp cà phê",
+      "story": [
+        "Sunnyvale, 1972. Nolan Bushnell và Al Allcorn lắp một hộp gỗ với TV đen trắng. Trên màn hình: hai thanh trắng và một quả cầu. Họ cắt khe trong hộp cà phê cho đồng xu và đặt nó vào quán bar Andy Capp's Tavern.",
+        "Ba ngày sau, chủ quán gọi: 'Máy hỏng rồi'. Bushnell đến sửa. Hộp cà phê TRÀN đồng xu — khe nhận tiền bị kẹt.",
+        "Đó là PONG. Đó là sự ra đời của Atari. Đến 11 là thắng."
+      ],
+      "disclaimer": "Pong là thương hiệu của Atari. Phiên bản của chúng tôi gọi là 'Paddles'."
+    },
+    {
+      "gameKey": "arkanoid",
+      "title": "Brick Buster — Taito 1986",
+      "story": [
+        "Taito, Nhật, 1986. Arkanoid lấy công thức Breakout và thêm power-ups, cốt truyện (con tàu Vaus thoát khỏi tàu mẹ bị phá hủy).",
+        "Power-ups rơi từ gạch bạc: WIDE, GUN, MULTI, SLOW, CATCH. ● — phóng bóng / bắn pháo / thả bóng dính.",
+        "Đập tất cả gạch để qua màn."
+      ],
+      "disclaimer": "Arkanoid là thương hiệu Taito. Thể loại 'gạch + vợt' có từ Breakout (1976)."
+    },
+    {
+      "gameKey": "pitfall",
+      "title": "Jungle — toàn bộ Atari 2600 cô đặc",
+      "story": [
+        "Đây không phải port của một game Atari 2600 cụ thể nào. Đây là bức thư tình gửi đến tất cả cùng lúc — Pitfall! (1982), Pitfall II (1984), Jungle Hunt (1982), H.E.R.O. (1984).",
+        "Tất cả đều vắt kiệt từng giọt đồ họa từ máy 128 byte RAM. Họ chứng minh rằng rừng, anh hùng, dây leo, bọ cạp, hố và vàng vừa vặn trong 4 KB.",
+        "XANH — nhảy. ĐỎ — súng lục. Chạy xa nhất có thể."
+      ],
+      "disclaimer": "Pitfall là thương hiệu Activision."
+    },
+    {
+      "gameKey": "pitfall_classic",
+      "title": "Pit Jumper — Activision 1982",
+      "story": [
+        "Pitfall! David Crane, Activision 1982. Hit đầu tiên của studio bên thứ ba đầu tiên thế giới.",
+        "Crane viết Pitfall! trong 1000 byte mã. Một nghìn byte. 256 màn hình, 32 kho báu, rừng cuộn, dây leo, cá sấu, bọ cạp.",
+        "4 triệu băng đã bán. Tìm 24 kho báu trong 20 phút."
+      ],
+      "disclaimer": "Pitfall! là thương hiệu Activision. Của chúng tôi là 'Pit Jumper'."
+    },
+    {
+      "gameKey": "naval_battle",
+      "title": "Hải chiến — vở ô vuông",
+      "story": [
+        "Đây là trò chơi mà ông bà của bạn chơi ở trường. Hai cuốn vở. Hai cây bút chì. Lưới 10×10. 'A4? Trượt'. 'C7? Trúng'. 'F2? Chìm'.",
+        "Hải chiến trên giấy có trước radio. Thế hệ Liên Xô đặc biệt chơi nó qua mọi tiết học buồn tẻ từ 60s đến 90s.",
+        "Hạm đội Nga: 1×4, 2×3, 3×2, 4×1 = 10 tàu, 20 ô.",
+        "Chúng tôi cũng đang làm Hải chiến NATIVE riêng — sắp ra mắt."
+      ],
+      "comingSoon": "Hải chiến native — phiên bản hoàn chỉnh riêng biệt",
+      "disclaimer": "Battleship là thương hiệu Hasbro; trò chơi giấy bút là di sản dân gian."
+    },
+    {
+      "gameKey": "missile",
+      "title": "Missile Defense — Chiến tranh Lạnh trong 80 pixel",
+      "story": [
+        "Missile Command, Atari 1980, arcade. Sáu thành phố. Ba khẩu đội. ICBM mưa từ trời.",
+        "Khi tất cả sáu thành phố bị phá huỷ, màn hình hiện 'THE END'. Không phải 'GAME OVER' — 'THE END'.",
+        "Trò chơi duy nhất trong lịch sử mà bạn chiến đấu với ngày tận thế thay vì chạy trốn. Và bạn luôn thua, cuối cùng."
+      ],
+      "disclaimer": "Missile Command là thương hiệu Atari."
+    },
+    {
+      "gameKey": "rogue",
+      "title": "Dungeon — Berkeley 1980, ASCII",
+      "story": [
+        "Berkeley, 1980. Ba sinh viên viết dungeon-crawler trên PDP-11. Không đồ họa. Bản đồ là ASCII: # tường, . sàn, @ bạn, B/O/R/S quái, & Bùa Yendor cuối cùng.",
+        "Mỗi tầng được sinh ra ngẫu nhiên. Mỗi cái chết là vĩnh viễn.",
+        "Mã nguồn mở dưới BSD năm 1986 và sinh ra cả một thể loại — 'roguelike'. Hậu duệ trực tiếp: Nethack, ADOM. Tinh thần: Diablo, Spelunky, Hades, Dead Cells.",
+        "Bạn đang chơi một mảnh lịch sử máy tính."
+      ],
+      "disclaimer": "Rogue là mã nguồn mở. Chúng tôi gọi nó là 'Dungeon'."
+    },
+    {
+      "gameKey": "et",
+      "title": "ExTer — trò chơi tệ nhất 1982",
+      "story": [
+        "Hè 1982. Phim E.T. của Spielberg là phim doanh thu cao nhất năm. CEO Atari Ray Kassar trả 21 triệu đô cho bản quyền và đặt hàng băng cho Giáng sinh.",
+        "Lập trình viên Howard Scott Warshaw được cho năm tuần ba ngày để làm. Làm 20 tiếng mỗi ngày, một mình, khóc bên terminal. Giao đúng hạn.",
+        "Atari in 5 triệu băng. Đến tháng Hai tất cả bị trả lại. Trò chơi không thể chơi: người ngoài hành tinh rơi vào hố không leo ra được. Trẻ con khóc sáng Giáng sinh.",
+        "Băng được chôn ở bãi rác New Mexico, phủ bê tông. Atari phủ nhận 30 năm. 2014 các nhà khảo cổ đào lên. Thật. Truyền thuyết là thật.",
+        "Mục đích không phải để chơi giỏi — mà để CẢM nhận tại sao cả ngành công nghiệp sụp đổ vì nó."
+      ],
+      "disclaimer": "Chúng tôi không liên kết với phim 1982 hay chủ sở hữu bản quyền (Universal). Phim được nhắc đến chỉ như một hiện vật văn hóa."
+    },
+    {
+      "gameKey": "exodus",
+      "title": "Exodus — Lemmings và kiểm duyệt",
+      "story": [
+        "DMA Design, Dundee, Scotland, 1991. Lemmings. Một cột sinh vật nhỏ đi qua màn hình — xuống vách đá, vào cọc nhọn. Nhiệm vụ của bạn là giao vai trò để dẫn họ đến lối ra an toàn.",
+        "Chúng tôi đã biến lemmings thành người tị nạn và vách đá thành internet Nga. Cheburashka 'CENSOR' tiến đến — cơ quan đã chặn VPN và website từ 2017. Cầu và thang là cách vượt qua.",
+        "Đây là châm biếm. Đôi khi con đường đến tự do được xây từ ba tấm ván và một ý tưởng tốt.",
+        "Cứu ít nhất 30% đám đông. Đừng để kiểm duyệt bắt họ."
+      ],
+      "disclaimer": "Lemmings là thương hiệu DMA Design / Psygnosis. Cheburashka là nhân vật thiếu nhi Liên Xô."
+    },
+    {
+      "gameKey": "lunar",
+      "title": "Moon Lander — từ PDP-8 đến NASA",
+      "story": [
+        "Tháng 10 năm 1969. Học sinh 17 tuổi Jim Storer viết trò chơi văn bản LUNAR trên FOCAL cho DEC PDP-8. Ba tháng sau Apollo 11.",
+        "Atari biến nó thành arcade đồ họa năm 1979. CRT vector. Joystick có cò đẩy thực sự.",
+        "Lunar Lander là cụ tổ của mọi mô phỏng bay, mọi câu đố vật lý, mọi Kerbal Space Program. Trò chơi đầu tiên mà mục tiêu là TOÁN HỌC, không phải phản xạ.",
+        "Hạ cánh chậm, bằng phẳng, vào bệ. Ngoài bệ — nửa điểm. Đâm — không gì cả."
+      ],
+      "disclaimer": "Lunar Lander là thương hiệu Atari. LUNAR (Storer 1969) là public domain."
+    },
+    {
+      "gameKey": "battle_city",
+      "title": "Xe tăng — boong-ke 1985",
+      "story": [
+        "Namco, Nhật, 1985. Battle City. Phiên bản NES vào hàng triệu nhà — qua máy nhân bản Dendy, hàng triệu phòng khách Liên Xô.",
+        "Hai người chơi, hai joystick, một màn hình. Bảo vệ đại bàng dưới đáy. Đừng để xe tăng địch chạm tới.",
+        "Đây là nghi lễ mùa đông của một thế hệ. Lạnh bên ngoài, ánh sáng CRT bên trong, anh em và bạn bè ngồi vai kề vai.",
+        "Chúng tôi sẽ thêm co-op Wi-Fi. Trò gốc dành cho hai người — sẽ lại dành cho hai người."
+      ],
+      "comingSoon": "Wi-Fi co-op + Tanks of Thea độc lập",
+      "disclaimer": "Battle City là thương hiệu Namco."
+    },
+    {
+      "gameKey": "asteroids",
+      "title": "Rock Storm — vector trắng trên đen",
+      "story": [
+        "Atari 1979. Đồ họa vector. Đường trắng trên nền đen tuyệt đối. Phong cách hình ảnh đặc trưng nhất của bất kỳ arcade nào.",
+        "Bạn là tàu hình tam giác trong không gian. Đá lớn vỡ thành đá vừa, vừa vỡ thành nhỏ.",
+        "Màn hình bao quanh. Lực đẩy là quán tính Newton thực sự. Không ma sát. Đẩy một lần, đi mãi."
+      ],
+      "disclaimer": "Asteroids là thương hiệu Atari. Của chúng tôi là 'Rock Storm'."
+    },
+    {
+      "gameKey": "muncher",
+      "title": "Muncher — pizza thiếu một lát",
+      "story": [
+        "Namco, Tokyo, 1980. Toru Iwatani thiết kế trò chơi cho phụ nữ — vì arcade thời đó chỉ có chiến tranh cho đàn ông.",
+        "Anh hùng là pizza thiếu một lát — đó là nơi anh ấy có hình dạng. 'paku-paku' trong tiếng Nhật có nghĩa là 'nhai-nhai'.",
+        "Bốn ma — Blinky, Pinky, Inky, Clyde — có AI khác nhau. Mê cung của chúng tôi là của riêng. Cuộc đuổi bắt là phổ quát."
+      ],
+      "disclaimer": "Pac-Man là thương hiệu Namco. Chúng tôi không dùng tên hay sprite."
+    },
+    {
+      "gameKey": "minesweeper",
+      "title": "Mines — tutorial Windows 3.1",
+      "story": [
+        "Robert Donner, Microsoft, 1989. Ban đầu cho Windows 3.1. Chính thức: trò chơi câu đố. Không chính thức: tutorial chuột phải thành công nhất thế giới.",
+        "Microsoft đưa Sapper vào mọi Windows để dạy nhân viên văn phòng dùng chuột. Solitaire dạy kéo-thả. Sapper dạy click phải để gắn cờ.",
+        "Click một ô, thấy con số — đó là số mìn ở 8 ô lân cận. Dùng logic suy ra ô an toàn."
+      ],
+      "disclaimer": "Concept Sapper là dân gian; triển khai Microsoft là của họ."
+    },
+    {
+      "gameKey": "frogger",
+      "title": "Road Hopper — Konami, 1981",
+      "story": [
+        "Konami, 1981. Con ếch băng qua đường bận rộn, rồi qua sông nguy hiểm — nhảy trên gỗ và rùa.",
+        "Arcade đầu tiên với góc nhìn từ trên xuống VÀ cuộn dọc. Trò chơi arcade đầu tiên mà bạn chơi một sinh vật nhỏ với mục tiêu duy nhất là KHÔNG BỊ HỦY DIỆT."
+      ],
+      "disclaimer": "Frogger là thương hiệu Konami."
+    },
+    {
+      "gameKey": "paratrooper",
+      "title": "Paratrooper — Orion Software, 1982",
+      "story": [
+        "Orion Software, 1982. Đồ họa CGA cho IBM PC. Bốn màu. Trời xanh. Dù trắng. Pháo đỏ ở giữa dưới.",
+        "Trực thăng băng qua hai bên, thả lính nhảy dù. Nếu bốn lính tiếp đất gần pháo — chiếm và bạn thua."
+      ],
+      "disclaimer": "Paratrooper là trò chơi 1982 của Orion Software."
+    },
+    {
+      "gameKey": "river_raid",
+      "title": "River Run — Carol Shaw, 1982",
+      "story": [
+        "Activision, 1982. Thiết kế bởi Carol Shaw — nữ nhà thiết kế trò chơi đầu tiên được ghi nhận. River Raid bán hơn một triệu băng.",
+        "Bạn lái máy bay phản lực xuống sông uốn lượn. Bắn thuyền, trực thăng. Cầu chặn đường — nổ tung. Thùng nhiên liệu để nạp lại."
+      ],
+      "disclaimer": "River Raid là thương hiệu Activision. Chúng tôi tôn vinh Carol Shaw mà không dùng mã của bà."
+    },
+    {
+      "gameKey": "digger",
+      "title": "Tunneler — Windmill, 1983",
+      "story": [
+        "Windmill Software, Canada, 1983. CGA. Ban đầu cho IBM PCjr.",
+        "Đào qua đất. Đẩy đá để đè quái. Thu thập ngọc lục bảo. Tránh quái đỏ săn bạn qua đường hầm của chính bạn."
+      ],
+      "disclaimer": "Digger từ Windmill là public domain từ 1998."
+    },
+    {
+      "gameKey": "pushbox",
+      "title": "Pushbox — Hiroyuki Imabayashi, 1982",
+      "story": [
+        "Hiroyuki Imabayashi, Thinking Rabbit, Nhật, 1982. Sokoban — nghĩa là 'thủ kho'.",
+        "Bạn là công nhân kho. Đẩy thùng vào ô mục tiêu. Chỉ ĐẨY, không bao giờ kéo. Hộp dồn vào tường sai hướng = chết, restart.",
+        "Sokoban là PSPACE-hard. Một trong những trò chơi được nghiên cứu học thuật nhiều nhất."
+      ],
+      "disclaimer": "Sokoban là thương hiệu Falcon Co. ở Nhật. Của chúng tôi là 'Pushbox'."
+    },
+    {
+      "gameKey": "star_wing",
+      "title": "Star Swarm — tổ ong Galaga",
+      "story": [
+        "Namco, 1981. Galaga, phần tiếp theo của Galaxian (1979). Bắn cuộn dọc. Kẻ thù bay theo đội hình phức tạp, sau đó ổn định trong tổ trên đỉnh và lao xuống bạn.",
+        "Cơ chế đặc trưng: 'mẹ' đôi khi lao xuống với chùm tia kéo. Bắt bạn — bạn mất mạng. NHƯNG nếu giết bà ta TRONG KHI bà ấy giữ tàu của bạn — tàu của bạn trở lại, gấp đôi."
+      ],
+      "disclaimer": "Galaga là thương hiệu Namco."
+    },
+    {
+      "gameKey": "cave",
+      "title": "Cave Quest — Crowther & Woods, 1976",
+      "story": [
+        "Will Crowther, 1976. Lập trình viên Bell Labs và nhà thám hiểm hang nghiệp dư. Sau khi ly hôn, viết trò phiêu lưu văn bản cho các con gái về một hang ở Kentucky.",
+        "Don Woods ở Stanford mở rộng năm 1977. 'Adventure' trở thành hit lan truyền trên mọi mainframe đại học Mỹ.",
+        "Mọi text adventure từ đó đều có nguồn gốc ở đây. Zork. Hitchhiker's Guide. Mọi interactive fiction. Mọi trò chơi narrative hiện đại."
+      ],
+      "disclaimer": "Colossal Cave Adventure là public domain. Chúng tôi tạo phiên bản 20 phòng của riêng và gọi là 'Cave Quest'."
+    },
+    {
+      "gameKey": "saloon",
+      "title": "Saloon — quán bar Tapper, 1983",
+      "story": [
+        "Bally Midway, 1983. Tapper.",
+        "Bạn là bartender. Bốn quầy bar dài. Khách khát đi về phía bạn. Kéo cần — ly trượt trên quầy đến họ. Bắt ly rỗng trở lại. Đừng để ly rơi.",
+        "Tủ arcade gốc có vòi bia thật làm điều khiển — đòn bẩy có cảm biến lực. Một trong những máy arcade xúc giác nhất thập niên 80."
+      ],
+      "disclaimer": "Tapper là thương hiệu Bally Midway / Sega. Của chúng tôi là 'Saloon'."
+    },
+    {
+      "gameKey": "tic_tac_toe",
+      "title": "Tic-Tac-Toe — OXO, 1952",
+      "story": [
+        "Cờ caro nhỏ rất cổ xưa. Người La Mã chơi 'Terni Lapilli' — ba viên đá — trước Công nguyên. Trẻ em đã vẽ trên giấy kẻ ô, trong bụi, trên lề sách, hàng thiên niên kỷ.",
+        "Và đó là một trong những TRÒ CHƠI MÁY TÍNH ĐẦU TIÊN. A.S. Douglas, Đại học Cambridge, 1952. Viết caro nhỏ OXO trên máy tính EDSAC cho luận án tiến sĩ về tương tác người-máy.",
+        "Caro nhỏ đã 'giải' — với chơi hoàn hảo cả hai bên, luôn hòa. Các trận đấu hay nhất là với con người, không phải máy tính. Vì vậy, chúng tôi cung cấp hai chế độ: vs CPU và vs PLAYER (truyền-và-chơi trên một thiết bị)."
+      ],
+      "disclaimer": "Caro nhỏ là di sản dân gian. OXO (Douglas, 1952) là cột mốc lịch sử."
+    }
+  ]
+}

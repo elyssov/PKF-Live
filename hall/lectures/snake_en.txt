@@ -1,0 +1,223 @@
+┌────────────────────────────────────┐
+│  3310.BIOS  v05.10  —  Nokia AS    │
+│  Battery: ████████░░  72% (week 4) │
+└────────────────────────────────────┘
+> SNAKE.MEM /TAIL
+
+> Hi. I am a Nokia 3310. There are 126
+> million of me out there in the world.
+> Even now, decades later, some of me
+> still work. Charge me once, leave me
+> in a drawer, come back in a month — I
+> will still find a tower. Try that
+> with your smartphone.
+
+> Let me tell you about Snake.
+
+> ── PART 1: BEFORE THE PHONE ──
+
+> Snake is older than mobile phones.
+> Older than mobile phones, that is, not
+> older than ME — I was born in September
+> 2000, which is admittedly recent for
+> an electronic patriarch. Snake is from
+> 1976. An arcade cabinet called BLOCKADE,
+> from Gremlin Industries in San Diego.
+> Two players, two control sticks, two
+> growing tails on a black screen.
+> Crash into the wall, into the other
+> tail, into your own tail — you lose.
+
+> Nobody played BLOCKADE in 1976 because
+> nobody knew what a video game was yet.
+> Pong had only been out for four years.
+> The world was still figuring out the
+> idea of "a game on a screen".
+
+> The arcade Snake died quietly.
+
+> ── PART 2: ENTER NOKIA ──
+
+> Twenty-one years later, in 1997, an
+> engineer at Nokia named Taneli Armanto
+> needs a small game to test the screen
+> drivers of the new 6110 handset. He
+> remembers BLOCKADE. He simplifies it
+> for one player, gives it a square apple
+> to eat, makes the snake grow longer
+> with each apple, and writes it in
+> 6 kilobytes of assembly.
+
+> He calls it Snake. He puts it on the
+> menu. The phone ships in March 1998.
+
+> ── PART 3: SNAKE ON A PHONE ──
+
+> Then the strangest thing in the history
+> of casual gaming happens.
+
+> Nokia's marketing department had
+> assumed customers would buy the 6110
+> for, you know, MAKING CALLS. Calls were
+> the headline feature. Calls were what
+> you bought a mobile phone for.
+
+> The thing customers actually started
+> doing with the 6110 was: hiding it
+> under their desk and playing Snake all
+> day. Office workers. Students. Bus
+> drivers between stops. Truck drivers
+> at red lights. Bored doctors. Bored
+> politicians. Bored teenagers. Bored
+> everyone.
+
+> One game. 84 by 48 pixels. Black and
+> green. No save. No high-score upload.
+> No multiplayer (well, there was a
+> Bluetooth two-player added later,
+> but most of the world never tried it).
+> Just: dot, dot, dot, dot, oh god the
+> dot is gone, restart.
+
+> By 2003 it was estimated that Snake
+> was the most-played video game in the
+> world, by player count. Not the most
+> SOLD, not the most REVENUE — but the
+> most actively played. Because every
+> Nokia phone shipped with it. And
+> everyone had a Nokia phone.
+
+> ── PART 4: ENTER ME, THE 3310 ──
+
+> Nokia 3310. April 2000.
+
+> I was built like a brick. Cast plastic
+> shell, polycarbonate. Drop me onto
+> concrete — concrete chips. Drop me into
+> a washing machine — washing machine
+> stops, I'm fine. Freeze me in a block
+> of ice and then thaw me out — I make
+> the phone call. People will, two
+> decades later, post videos of dropping
+> me from helicopters, running me over
+> with tanks, throwing me into volcanoes.
+> Spoiler: I work afterwards.
+
+> But the magic, the REAL magic, was
+> the battery. Standby: up to one month.
+> Talk time: 4.5 hours. You charged me
+> on Saturday. By Tuesday next week the
+> indicator still had three bars. By
+> Friday it might dip to two. By the
+> following Wednesday, sure, OK, time
+> to plug me in.
+
+> The reason was simple: monochrome
+> screen, no apps, no internet, no GPS,
+> no Bluetooth (yet), no camera, no
+> background processes. A radio, a
+> keypad, a tiny screen, and Snake.
+> What did I need power for?
+
+> ── PART 5: SNAKE II ON THE 3310 ──
+
+> The 3310 shipped with SNAKE II. Same
+> game, slightly nicer. The snake could
+> wrap around the edges instead of
+> crashing. There were obstacles. There
+> were "mazes" (4 of them). The apple
+> was now an actual little symbol, not
+> just a square.
+
+> 126 million of us shipped. Conservative
+> estimate of total hours of Snake II
+> played on 3310 hardware: a billion.
+> One billion hours. Of one game. On one
+> phone model.
+
+> ── PART 6: MEMES FROM THE FUTURE ──
+
+> Years later, when smartphones started
+> their long slow march to dominance,
+> the world began to remember the
+> indestructible little brick that had
+> taught it how to procrastinate. The
+> jokes wrote themselves.
+
+> "Why is the Earth tilted at 23 degrees?
+> Because someone dropped a Nokia 3310."
+
+> "On the floor of the Marianas Trench,
+> there are three whales and one 3310."
+
+> "Thor used a Nokia 3310 as his hammer.
+> Then he lost the hammer. The Nokia is
+> still down there, working."
+
+> "Archaeologists in 50,000 years will
+> uncover a Nokia 3310, charge it on
+> any handy lightning strike, and play
+> two hours of Snake II before deciding
+> they understand 21st century humans."
+
+> "Quantum entanglement is just two
+> Nokias agreeing to share a Snake save
+> file."
+
+> All slightly absurd, all slightly true.
+> I am still in your grandmother's
+> kitchen drawer. I will outlive most
+> of you.
+
+> ── PART 7: WHAT WE'RE GIVING YOU ──
+
+> Below is Snake. Our Snake. The Nokia
+> Snake II in spirit, in pixel-count, in
+> the slightly-too-fast escalation as
+> you eat your fifth apple, in the
+> CLACK-CLACK-CLACK of the snake's body
+> turning corners on the LCD, in the
+> tiny gasping FUUUU sound a 24-year-old
+> Soviet kid in 2001 made when his tail
+> bit itself at score 247.
+
+> Steer with the D-pad. Don't bite
+> yourself. Don't hit the wall. Eat
+> every apple you see. The game ends
+> when you make one mistake. You will
+> make many. The game will reset
+> instantly because resetting takes
+> zero milliseconds. Try again.
+
+> Eventually, like a billion humans
+> before you, you will get fluent. You
+> will look up from your phone in a
+> cafeteria queue and discover you have
+> scored 312 without remembering doing
+> any of it. Your snake is now spanning
+> the entire screen. The apple is in
+> the only cell your body doesn't fill.
+> You reach for it. You bite yourself.
+> You laugh, because there is nothing
+> else to do.
+
+> Welcome to history.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> Snake the gameplay mechanic — eat a
+> dot, get longer, don't crash — is
+> public domain. Nobody owns "a snake
+> on a grid".
+
+> Nokia is a Finnish company, a real
+> registered trademark, and we mention
+> them here only with love and reverence.
+> If somebody at Nokia ever sees this
+> game and feels we're stepping on
+> something — write to elyssov@gmail.com
+> and we'll fix it kindly.
+
+> _
+
+[ CLICK TO BEGIN ]

@@ -1,0 +1,250 @@
+████████████████████████████████████████
+█  ACTIVISION · PITFALL! · 1982         █
+█  DAVID CRANE · INTERVIEW · 2024       █
+█  IN HIS HOME OFFICE · LA, CALIFORNIA  █
+████████████████████████████████████████
+> [Casual setting. Crane sips coffee.]
+
+> Yeah, sure. Pitfall.
+
+> Look, here's what nobody fully
+> understood about the Atari 2600
+> at the time. The hardware was
+> brutal. 128 BYTES of RAM, not
+> kilobytes. A processor that had
+> to draw each scanline of the TV
+> in real time, hand-off-the-rails.
+> Programmers literally counted
+> CPU cycles per scanline, because
+> if you didn't finish your
+> calculations before the next
+> horizontal sync, the screen
+> garbled.
+
+> ── PART 1: THE FOUR ──
+
+> I joined Atari in 1979 — straight
+> out of DeVry Institute of
+> Technology. I was 25. They paid
+> me $35,000 a year, which felt
+> like a fortune. I worked on
+> several titles, some of them
+> shipped, some of them didn't.
+
+> The big problem at Atari was
+> that programmers got no credit.
+> Atari's policy was that the
+> games were corporate products,
+> like cereal boxes — you don't
+> credit individuals on a cereal
+> box. So my name didn't appear
+> on the games I made. Neither
+> did Larry Kaplan's, or Alan
+> Miller's, or Bob Whitehead's.
+
+> We were also paid flat salaries
+> regardless of how much our
+> games sold. Larry's "Bowling"
+> sold over a million cartridges.
+> Atari grossed maybe $20 million
+> off it. Larry made $35,000 that
+> year, same as everyone else.
+
+> One day in late 1979 we sat
+> down — the four of us — and
+> figured the math. Atari was
+> grossing roughly $7 million per
+> programmer per year, treating
+> us like assembly-line workers
+> while everyone else in the
+> creative industries (films,
+> books, music) had royalty
+> structures.
+
+> We quit.
+
+> All four of us, in October
+> 1979, walked into management's
+> office on the same day and
+> resigned. We left to found
+> Activision: the first third-party
+> game studio. Our pitch to
+> investors was simple — give
+> programmers names, credit, and
+> royalties, and they will
+> produce better games than the
+> corporate machine. Investors
+> agreed. October 1979 to
+> June 1980 we built Activision
+> from a borrowed office to a
+> shipped product.
+
+> ── PART 2: PITFALL TAKES SHAPE ──
+
+> By late 1981 I had shipped a few
+> Activision titles. None had been
+> blockbusters. The company needed
+> a hit, urgently — Atari had
+> sued us aggressively the moment
+> we launched (the suit was
+> eventually settled out of
+> court, but it sucked up a lot
+> of legal budget) and we needed
+> to fund the defence.
+
+> I had a vague idea for "guy
+> in a jungle." Started prototyping
+> in spring 1981. The guy was
+> Harry — running figure, animation
+> cycles I'd been working on for
+> a year. I had crocodiles
+> swimming in water. I had a vine
+> swing — actually, the vine
+> swing came LATER, originally I
+> had a simple two-screen tunnel
+> system. The vine swing got
+> added when I realised the
+> player needed something
+> RHYTHMIC, something with
+> timing-to-music, to break up
+> the monotony of running and
+> jumping.
+
+> The breakthrough was the
+> MAP. I had been thinking
+> "8-10 screens, hand-drawn." A
+> friend who worked at IBM
+> Research showed me a math
+> trick: a Linear Feedback
+> Shift Register can generate
+> long deterministic pseudo-
+> random sequences from a small
+> seed. If I encoded the LFSR
+> seed and current state in a
+> few bytes of cartridge ROM,
+> I could generate the SAME 256
+> screens every time the game
+> ran. Procedural generation,
+> deterministic, fast.
+
+> 256 screens of jungle. From
+> 1,024 bytes of cartridge ROM
+> for the map system. Plus the
+> game logic, sprite data,
+> sound. The total cartridge
+> was 4 kilobytes. Standard
+> 2600 size.
+
+> ── PART 3: WHAT'S IN A SCREEN ──
+
+> Each of the 256 screens has:
+>   - A background colour (sky
+>     varies by environmental
+>     "zone" — green, light
+>     green, lighter green for
+>     surface jungle; black or
+>     brown for tunnels).
+>   - 0-1 pits (small black gap
+>     in the surface; falling in
+>     loses a small amount of
+>     "score").
+>   - 0-1 tar pits (wider, deadly;
+>     you must vine-swing).
+>   - 0-1 quicksand pits (slowly
+>     opening and closing; jump
+>     across when small).
+>   - 0-1 logs (rolling
+>     horizontally; jump over).
+>   - 0-1 scorpions (in tunnel
+>     screens; lethal touch).
+>   - 0-1 crocodiles (three of
+>     them with snapping
+>     mouths, in water; vine
+>     across them).
+>   - 0-1 vines (hanging from
+>     the canopy; jump and grab).
+>   - 0-1 treasures (gold bar
+>     +5000, silver bar +3000,
+>     money bag +2000, diamond
+>     ring +4000).
+
+> 32 treasures total, spread
+> across the 256 screens. You
+> have 20 minutes (real time)
+> to collect as many as
+> possible. The screens loop
+> end-to-end, so you can keep
+> running indefinitely until the
+> clock expires.
+
+> ── PART 4: THE NUMBERS ──
+
+> Pitfall shipped April 1982.
+
+> 4 million cartridges sold in the
+> first six months. Activision's
+> single biggest hit. The
+> company's revenue for 1982
+> jumped from $6 million in 1981
+> to $66 million in 1982.
+
+> 4 million children opened
+> Pitfall on Christmas morning
+> 1982. By 1984 the cartridge
+> was on every American kid's
+> "had it" list, the way
+> "Stranger Things" is on every
+> 2026 kid's "watched it" list.
+
+> Pitfall! made me, personally,
+> very rich. I was 28 years old
+> when the royalty cheques
+> started arriving. I bought a
+> small Cessna with the first
+> year's payments. I learned
+> to fly it. Atari's lawyers,
+> wherever they ended up,
+> probably had less of a year.
+
+> ── PART 5: WHAT WE BUILT ──
+
+> Below is PIT JUMPER. Our tribute.
+> Harry-like protagonist (we
+> aren't calling him Harry —
+> that name is trademarked).
+> Procedurally-generated 64-scene
+> jungle that loops. Pits, tar
+> pits, fire pits, crocodiles,
+> scorpions, rolling logs.
+> Underground tunnel system
+> accessed via ladders. Vines
+> swinging from the canopy.
+> 24 treasures scattered across
+> the scenes. 20-minute mission
+> clock.
+
+> Direction pad to run.
+> ▲▼ on a ladder to descend
+> into or climb out of the
+> underground tunnels. ● FIRE
+> to jump. At the apex of a
+> jump, if a vine is overhead,
+> you grab it and swing.
+
+> Welcome to the jungle.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> PITFALL! and related marks belong
+> to their respective rights-holders.
+> David Crane retains moral
+> authorship credit and remains
+> alive, retired in California,
+> occasionally interviewed at
+> game conventions. Our tribute
+> is called PIT JUMPER. Concerns:
+> elyssov@gmail.com.
+
+> _
+
+[ CLICK TO BEGIN ]

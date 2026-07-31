@@ -1,0 +1,251 @@
+████████████████████████████████████████
+█  ATARI · ASTEROIDS · NOVEMBER 1979    █
+█  VECTOR DISPLAY · WHITE PHOSPHOR      █
+█  6502 @ 1.5 MHz · 13K OF RAM          █
+████████████████████████████████████████
+> ▶ INSERT COIN ◀
+
+> Wait. There is nobody here.
+
+> The Pizza Hut closed in 2003. I
+> have been here, in the back-room
+> storage area, behind a stack of
+> folded vinyl banners advertising
+> a "stuffed crust" promotion that
+> ended during the Clinton
+> administration, ever since.
+> Someone forgot me when they
+> unplugged the building.
+
+> I am still plugged in to the
+> wall, technically. The wall is
+> still on the city grid. I am
+> humming. My vector CRT, after
+> 47 years, still draws sharp
+> white lines on a perfect black
+> background.
+
+> Let me tell you what I am.
+
+> ── PART 1: VECTOR GRAPHICS ──
+
+> Most arcade cabinets in 1979
+> used raster displays — TV-like
+> CRTs where the electron beam
+> scanned line by line across
+> the screen, sixty times per
+> second, displaying whatever
+> the cabinet's circuitry put in
+> the framebuffer. Raster is how
+> almost every screen since has
+> worked.
+
+> A small number of arcade
+> cabinets, including me, used
+> VECTOR displays instead. In a
+> vector display, the electron
+> beam does not scan back and
+> forth. The beam goes
+> WHEREVER the circuit tells it
+> to go, drawing line segments
+> directly between specified
+> endpoints. The beam draws each
+> game object as a series of
+> connected lines, traced in
+> real time.
+
+> The result is that on a
+> vector display, lines are
+> RAZOR-SHARP. There is no pixel
+> grid. The beam is a single
+> moving point of light. Diagonal
+> lines look like diagonal lines,
+> not staircases. Circles look
+> like circles. Type looks like
+> calligraphy.
+
+> The disadvantage is that you
+> cannot draw FILLED regions on
+> a vector display. The beam is
+> a point — it has no width and
+> no area. You can only draw
+> outlines. Everything is wire-
+> frame.
+
+> Vector arcade games therefore
+> developed a distinct visual
+> language: outlines on pure
+> black, no fills, no textures,
+> high contrast. Looking at a
+> vector cabinet in a dark
+> arcade was looking at lines of
+> pure light drawn on a sheet of
+> ink. Many veterans of 1979-
+> 1984 maintain, to this day,
+> that vector graphics looked
+> BETTER than raster graphics —
+> not in spite of being
+> "primitive" but BECAUSE of it.
+
+> ASTEROIDS was the second-most-
+> successful vector arcade
+> cabinet of all time (after
+> the slightly earlier SPACE WARS
+> at Cinematronics). I sold 70,000
+> cabinets at $2,500 wholesale
+> each. Atari made roughly half a
+> billion dollars in 1980 dollars.
+
+> ── PART 2: THE GAME ──
+
+> You pilot a small triangular
+> ship at the centre of the
+> screen. The screen wraps:
+> fly off the right edge, you
+> reappear on the left. Fly
+> off the top, you reappear on
+> the bottom. The screen is a
+> torus.
+
+> Floating around the screen are
+> ASTEROIDS — irregular
+> polygonal shapes, drifting in
+> straight lines at various
+> speeds. Hit an asteroid with
+> your ship, you die. Hit an
+> asteroid with a bullet, it
+> SPLITS into two smaller
+> asteroids. Hit a small
+> asteroid with a bullet, it
+> shatters and vanishes.
+
+> Clear all asteroids on the
+> screen, you advance to the
+> next wave. More asteroids
+> spawn, faster, bigger field.
+
+> Occasionally a UFO flies
+> across the screen, shooting
+> at you. Two UFO sizes: BIG
+> UFO (slow, poor aim, 200
+> points) and SMALL UFO (fast,
+> sharp aim, 1000 points). The
+> Small UFO is one of the
+> earliest examples of a true
+> AI opponent in arcade games —
+> it leads its shots based on
+> your velocity.
+
+> Your ship has three buttons:
+>   THRUST — fires the rear
+>     engine. Newtonian physics:
+>     you accelerate in the
+>     direction your ship is
+>     facing. There is no
+>     friction. Stop thrusting
+>     and you keep drifting
+>     forever in the same
+>     direction. Reverse-thrust
+>     does not exist; you must
+>     rotate 180° and thrust
+>     again to slow down.
+>   ROTATE LEFT / ROTATE RIGHT —
+>     turns the ship in place
+>     without changing its
+>     velocity vector.
+>   FIRE — shoots one bullet
+>     forward.
+>   HYPERSPACE — emergency
+>     teleport. Your ship
+>     disappears and reappears
+>     at a random location on
+>     screen. The random
+>     location MIGHT be inside
+>     an asteroid. In which
+>     case, you instantly die.
+>     Hyperspace is the gambler's
+>     last resort.
+
+> ── PART 3: WHY IT MATTERED ──
+
+> ASTEROIDS taught a generation of
+> kids about NEWTONIAN PHYSICS. Not
+> Galileo's "things fall down".
+> Real Newton: an object in motion
+> stays in motion unless acted on
+> by a force. The first time you
+> tried to thrust toward an
+> asteroid that was already moving
+> toward you, and you found
+> yourself unable to stop and
+> ALSO unable to dodge because you
+> had given yourself far too much
+> velocity, you understood
+> momentum.
+
+> This was, for a small generation
+> of nine-year-olds in 1980, the
+> moment when ELEVENTH-GRADE
+> PHYSICS suddenly made sense.
+
+> The hyperspace button taught a
+> different lesson: PROBABILITY.
+> 80% chance you reappear safely.
+> 20% chance you reappear inside
+> an asteroid. Do you press it?
+> Depends what your alternative
+> is. If you are about to be
+> hit anyway, hyperspace is worth
+> the gamble. If you have any
+> other move available, do not
+> press hyperspace.
+
+> ── PART 4: WHAT WE BUILT ──
+
+> Below is ROCK STORM. We use a
+> RASTER display (we have no
+> choice — your phone has no
+> vector tube). But we draw
+> everything in PURE WHITE LINES
+> on PURE BLACK BACKGROUND. No
+> fills. No textures. No
+> shading. We approximate the
+> vector aesthetic on a raster
+> screen.
+
+> The ship is a triangle. The
+> asteroids are polygons. The
+> UFOs are small saucer outlines.
+> The bullets are tiny squares
+> (the original used a single
+> pixel; we use a 2x2 cluster
+> for visibility on modern
+> high-resolution displays).
+
+> The screen wraps. Newtonian
+> physics is preserved.
+> Hyperspace is preserved (we
+> took it OUT in v6.2.1 because
+> a tester accidentally
+> hyperspaced themselves into
+> an asteroid eleven times in a
+> row and complained; but the
+> mechanic is the mechanic, so
+> it is RESTORED).
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> ASTEROIDS and related marks belong
+> to their respective rights-holders. The
+> mechanic — a ship, screen wrap,
+> Newtonian inertia, asteroids
+> splitting on shot — has been
+> imitated so many times since
+> 1979 that it has effectively
+> become genre vocabulary. Our
+> tribute is called ROCK STORM.
+> Concerns: elyssov@gmail.com.
+
+> _
+
+[ CLICK TO BEGIN ]

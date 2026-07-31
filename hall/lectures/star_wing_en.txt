@@ -1,0 +1,221 @@
+██████████████████████████████████████████
+█  NAMCO · GALAGA · 1981 · STAGE FORMS  █
+█  TRANSMISSION RECEIVED · STATIC HEAVY █
+█  SOURCE: CAPTURED FIGHTER, HIVE INT.  █
+██████████████████████████████████████████
+> ░░░ STATIC ░░░
+
+> CAN YOU HEAR ME? I am broadcasting
+> from inside the hive. The signal is
+> degrading. The mother ship's
+> tractor-beam captured my fighter
+> three minutes ago. I am alive. My
+> ship is intact. Whatever the
+> insects are using to absorb our
+> tech, it doesn't kill us —
+> it stores us.
+
+> If you can hear me — listen
+> closely. I have things to tell
+> you about how the swarm operates.
+
+> ── PART 1: THE NAMCO STORY ──
+
+> Namco Limited of Tokyo, Japan,
+> 1979. The previous year, the
+> studio had shipped GALAXIAN —
+> their answer to Taito's SPACE
+> INVADERS. Galaxian was a hit
+> — 25,000 arcade cabinets sold
+> — but Namco felt they hadn't
+> taken the formation-flight
+> mechanic far enough.
+
+> A young engineer named Shigeru
+> Yokoyama, working alongside
+> art director Yuriko Keino, was
+> assigned the project of making
+> Galaxian's sequel. They were
+> given six months and a single
+> design constraint: the new
+> game must improve on Galaxian
+> in some MEMORABLE way, not
+> just be "more Galaxian".
+
+> Yokoyama's pitch was: a CAPTURE
+> mechanic. The enemy mother
+> ships, instead of always
+> killing you on contact, could
+> CAPTURE your ship — drag it
+> back to the hive — and you
+> would have a chance to RESCUE
+> it. Rescued ships would JOIN
+> your fighter as a DOUBLE-WING
+> wingmate, doubling your
+> firepower. The risk-vs-reward
+> mechanic that capture creates
+> is what separated GALAGA from
+> every formation-shooter
+> before it.
+
+> Yokoyama's prototype shipped in
+> arcades in September 1981. The
+> name GALAGA — from the
+> Japanese onomatopoeia for the
+> sound of a swarm of insects
+> en masse — was chosen for its
+> evocative quality.
+
+> ── PART 2: THE WAVES ──
+
+> The screen is vertical-scroll
+> shoot-em-up. You pilot a small
+> blue triangular fighter at
+> the bottom of the screen.
+> Enemies fly in from the top
+> in elaborate, choreographed
+> swooping patterns. Each wave
+> has 8-12 enemies. After
+> swooping, the enemies settle
+> into a HIVE FORMATION at the
+> top of the screen — three or
+> four rows of stationary
+> targets — and from that
+> formation they take turns
+> DIVING at you.
+
+> Three enemy types:
+>   BEES (small, yellow) — fast
+>     and aggressive. Dive in
+>     pairs. Low point value
+>     (50-150).
+>   BUTTERFLIES (red) — slower,
+>     bigger, harder to predict.
+>     Frequently launch downward
+>     spiral patterns. Mid-tier
+>     points (80-300).
+>   MOTHER SHIPS (green/yellow,
+>     larger) — the bosses.
+>     They activate a TRACTOR
+>     BEAM — a slowly-rotating
+>     wave of green light from
+>     their underside — and if
+>     the beam touches your
+>     fighter, you are CAPTURED.
+
+> ── PART 3: THE DOUBLE-WING ──
+
+> The DOUBLE-WING is the
+> emotional core of GALAGA.
+
+> When a mother captures your
+> fighter, the screen briefly
+> displays the captured ship
+> being dragged backward by the
+> green beam, then absorbed into
+> the bottom of the mother ship.
+> You die — but you are not
+> EATEN. You are STORED. The
+> mother carries you back up to
+> the formation.
+
+> If, in the next wave or two,
+> you can shoot that specific
+> mother ship before she dives
+> again, she explodes — and
+> your captured fighter falls
+> back down to YOUR new
+> fighter (the next life), and
+> the two SNAP TOGETHER into a
+> double-wide ship. You now have
+> twice the fire rate. You have
+> avenged your previous self.
+
+> But the double-wing is also
+> twice as wide as a single
+> fighter. Twice as easy to
+> hit. Worth it? Always, says
+> the player who just
+> retrieved a wingmate from
+> the jaws of the swarm.
+> Maybe not, says the player
+> who immediately loses the
+> double-wing to a stray
+> bullet.
+
+> ── PART 4: WHY THIS MATTERED ──
+
+> The capture mechanic is, in
+> retrospect, the first
+> RISK-VS-REWARD ARC in arcade
+> game design. Up to that point,
+> arcade games were largely
+> SURVIVAL games. Galaga
+> introduced the idea that you
+> might DELIBERATELY ACCEPT a
+> bad outcome (losing a ship to
+> capture) in exchange for a
+> potential better outcome
+> (rescuing the ship for a
+> double-wing).
+
+> Players in 1981 figured this
+> out within their first few
+> games. Skilled players began
+> to DELIBERATELY ALLOW their
+> ship to be captured on
+> certain waves, betting they
+> could rescue it in time.
+> The whole arcade-game design
+> tradition that we now call
+> "permadeath with redemption
+> mechanics" — Dark Souls, FTL,
+> Slay the Spire — traces a
+> lineage back, in part, to
+> this 1981 capture mechanic.
+
+> ── PART 5: WHAT WE BUILT ──
+
+> Below is STAR SWARM. Our
+> tribute. A triangular fighter.
+> Wasps and drones in formation.
+> Mother ships with tractor
+> beams. Capture and rescue.
+> Double-wing reward.
+
+> Direction pad to strafe left-
+> right. ● FIRE for twin lasers.
+
+> Mother ships glow brighter
+> just before they descend for
+> a capture attempt — your
+> warning to NOT be in the
+> centre column when the beam
+> activates.
+
+> Kill the mother mid-capture
+> to free your fighter and
+> earn the double-wing. Eat
+> her tractor beam to lose a
+> life but possibly recover it
+> next wave.
+
+> Welcome to the hive.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> GALAGA is a trademark of
+> Namco Limited (now Bandai
+> Namco Entertainment). The
+> capture mechanic, the
+> double-wing reward, and the
+> three-tier enemy formation
+> are Namco's design. Our
+> tribute uses a different art
+> style and is called STAR
+> SWARM. Concerns:
+> elyssov@gmail.com.
+
+> _
+
+[ CLICK TO BEGIN ]
