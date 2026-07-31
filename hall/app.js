@@ -6,43 +6,28 @@
 'use strict';
 
 // ── Каталог автоматов ──────────────────────────────────────────────
-// glass = стекло корпуса в долях фотографии (те же Rect, что в ScreenEra.kt).
+// Витрина в ЕДИНОМ стиле (Юджин 31.07): каждый экспонат — кабинет
+// TAVERN TENNIS, на стекле — скриншот игры. glass = стекло корпуса в
+// долях фотографии (тот же Rect, что в ScreenEra.kt).
+const CAB_PHOTO = 'assets/bezels/tavern_tennis.png';
+const CAB_AR = '1144 / 1375';
+const CAB_GLASS = { l: 21.8, t: 28.2, w: 55.9, h: 39.5 };
+
 const CABS = [
   {
-    id: 'pong', title: 'PONG · 1972', ghost: 'PONG',
+    id: 'pong', title: 'PONG · 1972',
     playable: true, src: 'games/pong/index.html',
-    photo: 'assets/bezels/tavern_tennis.png', ar: '1144 / 1375',
-    glass: { l: 21.8, t: 28.2, w: 55.9, h: 39.5 },
+    shot: 'assets/shots/pong.jpg',
     lecture: { en: 'lectures/pong_en.txt', ru: 'lectures/pong_ru.txt' },
   },
-  {
-    id: 'snake', title: 'SNAKE · 1998', ghost: 'SNAKE', playable: false,
-    photo: 'assets/bezels/nokla_phone.png', ar: '729 / 691',
-    glass: { l: 14.4, t: 26.5, w: 71.3, h: 54.0 },
-  },
-  {
-    id: 'brixout', title: 'BRIXOUT · 1986', ghost: 'BRIXOUT', playable: false,
-    photo: 'assets/bezels/elgee_svga.png', ar: '1364 / 1153',
-    glass: { l: 14.4, t: 14.4, w: 71.2, h: 62.5 },
-  },
-  {
-    id: 'jungle', title: 'JUNGLE RUN · 1982', ghost: 'JUNGLE', playable: false,
-    photo: 'assets/bezels/vectra77.png', ar: '1536 / 1024',
-    glass: { l: 10.9, t: 14.2, w: 63.9, h: 65.6 },
-  },
-  {
-    id: 'dungeon', title: 'DUNGEON · 1980', ghost: 'DUNGEON', playable: false,
-    photo: 'assets/bezels/mtec_ega.png', ar: '1402 / 1122',
-    glass: { l: 16.8, t: 14.6, w: 66.1, h: 59.2 },
-  },
-  {
-    id: 'muncher', title: 'MUNCHER · 1980', ghost: 'MUNCHER', playable: false,
-    photo: 'assets/bezels/gnusmas14.png', ar: '1394 / 1128',
-    glass: { l: 8.8, t: 11.8, w: 71.2, h: 65.8 },
-  },
+  { id: 'snake', title: 'SNAKE · 1998', playable: false, shot: 'assets/shots/snake.jpg' },
+  { id: 'brixout', title: 'BRIXOUT · 1986', playable: false, shot: 'assets/shots/brixout.jpg' },
+  { id: 'jungle', title: 'JUNGLE RUN · 1982', playable: false, shot: 'assets/shots/jungle.jpg' },
+  { id: 'dungeon', title: 'DUNGEON · 1980', playable: false, shot: 'assets/shots/dungeon.jpg' },
+  { id: 'muncher', title: 'MUNCHER · 1980', playable: false, shot: 'assets/shots/digger.jpg' },
 ];
 
-const COINS_PER_DOLLAR = 8;
+const COINS_PER_DOLLAR = 4;   // в долларе четвертаков ЧЕТЫРЕ (Юджин, калькулятор)
 const LS_KEY = 'pxcf-arcade-wallet';
 
 // ── Кошелёк ────────────────────────────────────────────────────────
@@ -117,16 +102,15 @@ document.getElementById('backLobby').addEventListener('click', () => {
 const carousel = document.getElementById('carousel');
 
 function buildCab(cab) {
-  const g = cab.glass;
+  const g = CAB_GLASS;
   const el = document.createElement('div');
   el.className = 'cab' + (cab.playable ? '' : ' soon');
   el.dataset.id = cab.id;
   el.innerHTML =
     '<div class="cab-marquee">' + cab.title + '</div>' +
-    '<div class="cab-photo" style="background-image:url(' + cab.photo + ');aspect-ratio:' + cab.ar + '">' +
-      '<div class="cab-screen" style="left:' + g.l + '%;top:' + g.t + '%;width:' + g.w + '%;height:' + g.h + '%">' +
+    '<div class="cab-photo" style="background-image:url(' + CAB_PHOTO + ');aspect-ratio:' + CAB_AR + '">' +
+      '<div class="cab-screen" style="left:' + g.l + '%;top:' + g.t + '%;width:' + g.w + '%;height:' + g.h + '%;background-image:url(' + cab.shot + ')">' +
         '<div class="attract">' +
-          '<div class="game-ghost">' + cab.ghost + '</div>' +
           '<div class="insert-coin">' + (cab.playable ? 'INSERT COIN' : 'SOON') + '</div>' +
         '</div>' +
       '</div>' +
@@ -282,8 +266,9 @@ function endDrag(e) {
   zoomIntoGame(cabEl, cab);
 }
 
-/* Зум: чёрная «трубка» стартует ровно из стекла автомата и раздувается
-   на весь экран; внутри включается игра. Выход — кнопка на рамке. */
+/* Зум (плавный, Юджин 31.07): «трубка» со СКРИНШОТОМ игры стартует ровно
+   из стекла кабинета и раздувается на весь экран 1.4с; wasm грузится под
+   скриншотом, по готовности — тихий кроссфейд в живую игру. */
 function zoomIntoGame(cabEl, cab) {
   const glass = cabEl.querySelector('.cab-screen').getBoundingClientRect();
   const stage = document.createElement('div');
@@ -292,27 +277,43 @@ function zoomIntoGame(cabEl, cab) {
   stage.style.top = glass.top + 'px';
   stage.style.width = glass.width + 'px';
   stage.style.height = glass.height + 'px';
-  stage.innerHTML = '<div class="stage-glow"></div>';
+  stage.innerHTML =
+    '<div class="stage-shot" style="background-image:url(' + cab.shot + ')"></div>' +
+    '<div class="stage-glow"></div>';
   document.body.appendChild(stage);
-  // Форсируем layout, затем анимируем к фуллскрину.
+  // Игра грузится СРАЗУ, невидимой, под скриншотом — переключение
+  // получается незаметным: к концу наезда wasm обычно уже тёплый.
+  const frame = document.createElement('iframe');
+  frame.src = cab.src;
+  frame.setAttribute('allow', 'autoplay');
+  frame.style.opacity = '0';
+  stage.appendChild(frame);
+  let grown = false, loaded = false;
+  const reveal = () => {
+    if (!grown || !loaded) return;
+    frame.style.transition = 'opacity 0.7s';
+    frame.style.opacity = '1';
+    frame.focus();
+    if (frame.contentWindow) frame.contentWindow.focus();
+    setTimeout(() => {
+      const shot = stage.querySelector('.stage-shot');
+      if (shot) shot.remove();
+      const exit = document.createElement('button');
+      exit.id = 'stageExit';
+      exit.textContent = '◂ ВЫЙТИ ИЗ АВТОМАТА';
+      exit.addEventListener('click', () => stage.remove());
+      stage.appendChild(exit);
+    }, 750);
+  };
+  frame.addEventListener('load', () => { loaded = true; reveal(); });
+  // Форсируем layout, затем плавный наезд к фуллскрину.
   stage.getBoundingClientRect();
   stage.classList.add('grow');
   stage.style.left = '0px'; stage.style.top = '0px';
   stage.style.width = '100vw'; stage.style.height = '100vh';
-  setTimeout(() => {
-    const frame = document.createElement('iframe');
-    frame.src = cab.src;
-    frame.setAttribute('allow', 'autoplay');
-    stage.appendChild(frame);
-    const exit = document.createElement('button');
-    exit.id = 'stageExit';
-    exit.textContent = '◂ ВЫЙТИ ИЗ АВТОМАТА';
-    exit.addEventListener('click', () => { stage.remove(); });
-    stage.appendChild(exit);
-    frame.addEventListener('load', () => frame.focus());
-    document.getElementById('hallHint').textContent =
-      'Стрелки/W-S — ракетка (мышь тоже работает). Экскурсовод может рассказывать фоном.';
-  }, 950);
+  setTimeout(() => { grown = true; reveal(); }, 1450);
+  document.getElementById('hallHint').textContent =
+    'Стрелки/W-S — ракетка (мышь тоже работает). Экскурсовод может рассказывать фоном.';
 }
 
 // ── Старт ──────────────────────────────────────────────────────────
