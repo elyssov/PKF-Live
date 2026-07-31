@@ -61,6 +61,21 @@
 <!-- Перетаскиваемая монетка -->
 <div id="dragCoin" class="drag-coin hidden">25¢</div>
 
+<!-- Экскурсовод -->
+<aside id="docent" class="docent hidden">
+  <header class="docent-head">
+    <div id="docentTitle" class="docent-title">—</div>
+    <button id="docentClose" class="ghost-btn">✕</button>
+  </header>
+  <div class="docent-lang">
+    <label><input type="radio" name="lang" id="langEn" checked> EN</label>
+    <label><input type="radio" name="lang" id="langRu"> RU</label>
+    <button id="speakBtn" class="speak-btn">▶ АУДИОЛЕКЦИЯ</button>
+  </div>
+  <pre id="docentBody" class="docent-body"></pre>
+  <div class="docent-note">Голос: браузерный. Студийная озвучка (HF TTS) — в пути.</div>
+</aside>
+
 <script src="app.js"></script>
 </body>
 </html>

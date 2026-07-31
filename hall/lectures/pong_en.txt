@@ -1,0 +1,241 @@
+████████████████████████████████████████
+██                                    ██
+██      PONG ARCADE — UNIT #00012     ██
+██      SUNNYVALE, CA — JUNE 1972     ██
+██                                    ██
+████████████████████████████████████████
+> I am a wooden cabinet with a small
+> black-and-white television set bolted
+> into me. On my front there is a slot
+> for a quarter, a power switch, and two
+> small white knobs. On my back, six
+> screws hold me together. I am about
+> four feet tall. I weigh maybe forty
+> kilograms. I am the entire video game
+> industry.
+
+> Let me explain.
+
+> ── PART 1: A WAREHOUSE IN CALIFORNIA ──
+
+> 1972. California. Two young engineers,
+> Nolan Bushnell and Ted Dabney, have
+> founded a company called Syzygy a
+> year earlier. They've since renamed
+> it Atari. They are basically broke.
+> Their first arcade game, COMPUTER
+> SPACE, failed at every bar they put
+> it in — too complicated for drunk
+> people to understand.
+
+> Bushnell hires an engineer named Al
+> Alcorn. Alcorn is fresh out of UC
+> Berkeley. He has never designed a
+> video game in his life. Bushnell does
+> not tell him this. Bushnell tells him:
+> "Build me a game. A really, really
+> simple one. Two paddles. A ball.
+> The ball bounces. Use it as your
+> warm-up exercise."
+
+> Alcorn thinks he is being trained.
+> Bushnell knows he is being given the
+> actual product.
+
+> Alcorn builds the prototype in three
+> months. It is one TTL board. About
+> sixty-six chips wire-wrapped together.
+> No microprocessor — microprocessors
+> are not really a thing yet for
+> consumer products. The whole game is
+> hardwired logic. It plays one melody:
+> the click of the ball hitting a
+> paddle. Click. Click. Click.
+
+> Alcorn adds two refinements without
+> being asked:
+>   (a) the angle the ball bounces at
+>       depends on WHERE on the paddle
+>       it hits, so skilled players can
+>       direct the ball;
+>   (b) when a paddle misses, the ball
+>       briefly speeds up before the
+>       next serve, to keep the rally
+>       from getting boring.
+
+> These are the first emergent strategy
+> mechanics in the history of video
+> games.
+
+> ── PART 2: A BAR IN SUNNYVALE ──
+
+> Bushnell and Dabney install me inside
+> a wooden cabinet, with a slot cut into
+> a coffee can taped to the side for
+> quarters. They drive me to Andy Capp's
+> Tavern in Sunnyvale and set me on the
+> floor near the wall.
+
+> No instructions. Bushnell only writes
+> one line on a piece of paper taped to
+> my screen:
+
+>     AVOID MISSING BALL FOR HIGH SCORE.
+
+> That is the entire user manual. For
+> the entire game.
+
+> A few days later, Bill Gattis, the
+> tavern's owner, calls Bushnell.
+> "Hey, that game machine of yours? It's
+> broken." Bushnell drives over,
+> expecting a blown fuse or a bad
+> capacitor.
+
+> What he finds is that the coffee can
+> attached to my side is COMPLETELY
+> JAMMED WITH QUARTERS. So full that
+> the next coin won't fit. So full that
+> when a player puts a coin in, the
+> mechanism cannot register the coin
+> because there is nowhere for it to
+> drop.
+
+> Bushnell empties the can. Plays for a
+> while. Goes home thinking.
+
+> The next week, sales of more PONG
+> cabinets begin. He doesn't bother to
+> license the design from anyone else
+> because there is no one to license
+> from. He doesn't bother to patent it
+> because it's already in production.
+> He just builds more of me. Hundreds.
+> Thousands. Tens of thousands.
+
+> ── PART 3: THE FIRST INDUSTRY ──
+
+> 1972 ends with 19,000 PONG cabinets in
+> bars, bowling alleys, laundromats, and
+> pizza parlours across the United
+> States. The video game industry has
+> just been born. There is one game in
+> it. It is me.
+
+> By 1973 clones are everywhere. Magnavox
+> sues Atari for patent infringement —
+> Ralph Baer at Magnavox had built a
+> tennis prototype on the Magnavox
+> Odyssey home console back in 1966.
+> Bushnell settles for ${'$'}700,000 and
+> perpetual rights. (He maintains, to
+> the end of his life, that he had
+> seen Baer's prototype at a trade show
+> and "drawn inspiration", though he
+> always insists he didn't directly
+> copy it. The court did not find this
+> distinction interesting.)
+
+> By 1975, Atari ships PONG as a home
+> console — a single-purpose box you
+> plug into your TV that ONLY plays
+> PONG. Sold through Sears at JCPenney
+> prices. Goes berserk for Christmas.
+
+> ── PART 4: WHAT I AM, EXACTLY ──
+
+> I am the simplest possible video game
+> that is still a video game.
+
+> Two players each control a vertical
+> rectangle. A square ball bounces.
+> Hit your rectangle into the ball's
+> path — the ball bounces back. Miss
+> the ball — the other player scores.
+> First to 11 wins. There is no story.
+> There is no music. There is no power-
+> up. There is no upgrade tree. There
+> is no inventory. There is no menu.
+
+> And yet, when I am switched on, you
+> cannot stop playing me.
+
+> ── PART 5: WHY ──
+
+> Because it is the truest interactive
+> experience humans have ever built. A
+> game theorist named Bernie DeKoven
+> later wrote that what we built was
+> not really a game — it was a
+> conversation. Two players, taking
+> turns, sending the ball back and
+> forth, getting tired together,
+> getting good together, getting bored
+> together, all without speaking. The
+> ball is the topic of conversation.
+> Every rally is a sentence. Every
+> miss is a punctuation mark.
+
+> I was the first machine in human
+> history that two people could share
+> a non-verbal conversation through.
+> Before me you needed words, or
+> gestures, or a shared physical
+> activity like rowing a boat. After
+> me you could just sit in a bar with
+> a stranger and click a knob and
+> understand each other.
+
+> ── PART 6: NOW ──
+
+> Here in 2026, the company that owns
+> the rights to my name has changed
+> hands at least eight times. Most of
+> my original cabinets are in landfills.
+> A few of us are in museums — the
+> Smithsonian has one. The Computer
+> History Museum in Mountain View has
+> one. The Museum of Modern Art in New
+> York lists PONG as part of its
+> permanent collection on the grounds
+> of being one of the most important
+> works of interactive art of the 20th
+> century. Which, accidentally, it is.
+
+> Most of the people who played me as
+> children are now grandparents.
+
+> What we have made for you below is
+> not the original PONG. It is a
+> tribute. The paddles are the same.
+> The ball is the same. The angles are
+> the same. The click sound is the
+> same. We have called it PADDLES so
+> nobody confuses our love letter
+> with the trademark.
+
+> Drag your paddle on the left side of
+> the screen, up and down. Your
+> opponent is the CPU on the right,
+> playing badly on purpose so you can
+> learn. First to eleven wins.
+
+> Welcome back. Or, if this is your
+> first time — welcome.
+
+> ── A SMALL FOOTNOTE AT THE CAMPFIRE ──
+
+> The PONG trademark belongs to whoever
+> owns what was once Atari Inc. (a long
+> chain of acquisitions). The MECHANIC
+> — two paddles, a ball, bouncing — is
+> not protectable; courts have ruled
+> repeatedly that game mechanics are
+> ideas, not protectable expression.
+> We call our version PADDLES out of
+> politeness. If a rights-holder has
+> any concern: elyssov@gmail.com,
+> resolved gently and quickly.
+> _
+
+[ TAP TO BEGIN ]
