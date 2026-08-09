@@ -1,0 +1,27 @@
+name = "pkf-cashier"
+main = "src/index.ts"
+compatibility_date = "2026-08-01"
+
+# База леджера. database_id заполняется после `wrangler d1 create pkf-cashier`
+# (локальная разработка через `wrangler dev --local` работает и без него).
+[[d1_databases]]
+binding = "DB"
+database_name = "pkf-cashier"
+database_id = "PLACEHOLDER-RUN-D1-CREATE"
+
+[vars]
+# Боевые значения кладём секретами (`wrangler secret put`), не сюда.
+PAYPAL_ENV = "sandbox"
+ALLOWED_ORIGINS = ""
+
+# Локальный прогон: секрет-заглушка, чтобы `wrangler dev` не падал.
+# Продовый WALLET_SECRET ставится через `wrangler secret put WALLET_SECRET`.
+[env.dev.vars]
+WALLET_SECRET = "dev-secret-not-for-production"
+PAYPAL_ENV = "sandbox"
+ALLOWED_ORIGINS = "http://localhost:8137,http://127.0.0.1:8137"
+
+[[env.dev.d1_databases]]
+binding = "DB"
+database_name = "pkf-cashier"
+database_id = "PLACEHOLDER-RUN-D1-CREATE"
