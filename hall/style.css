@@ -112,6 +112,11 @@ body {
 }
 .buy-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 #7a5108; }
 .paypal-note { margin-top: 10px; font-size: 11px; color: #6f6590; }
+/* Касса называет себя вслух: зелёным — настоящие деньги, янтарным —
+   демо-контур, серым — витрина без кассы. */
+.paypal-note.live    { color: #7fe0a0; }
+.paypal-note.demo    { color: #ffb02e; }
+.paypal-note.offline { color: #6f6590; }
 
 .booth-slot {
   width: 140px; height: 8px;
@@ -420,6 +425,13 @@ body {
   transition: box-shadow 0.15s;
 }
 .coin-door.hot .coin-slot { box-shadow: inset 0 0 6px #000, 0 0 0 3px var(--neon-amber), 0 0 16px #ffb02e88; }
+/* Монета ушла в кассу и ждёт ответа — щель занята, второй раз не сунешь. */
+.coin-door.busy { opacity: 0.55; pointer-events: none; }
+.coin-door.busy .coin-slot { animation: slot-wait 0.9s ease-in-out infinite; }
+@keyframes slot-wait {
+  0%, 100% { box-shadow: inset 0 0 6px #000, 0 0 0 2px #6f6590; }
+  50%      { box-shadow: inset 0 0 6px #000, 0 0 0 2px var(--neon-amber); }
+}
 .coin-door-label { font-size: 10px; color: #6f6590; letter-spacing: 0.15em; }
 
 /* Табличка-лекция */

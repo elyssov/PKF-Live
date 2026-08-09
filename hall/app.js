@@ -53,14 +53,13 @@ const CABS = SHELF.map(([id, title]) => ({
   lecture: { en: 'lectures/' + id + '_en.txt', ru: 'lectures/' + id + '_ru.txt' },
 }));
 
-const COINS_PER_DOLLAR = 4;   // в долларе четвертаков ЧЕТЫРЕ (Юджин, калькулятор)
-const LS_KEY = 'pxcf-arcade-wallet';
+const PACK_ID = 'quarter_4';   // в долларе четвертаков ЧЕТЫРЕ (Юджин, калькулятор)
 
 // ── Кошелёк ────────────────────────────────────────────────────────
-let coins = parseInt(localStorage.getItem(LS_KEY) || '0', 10);
-function saveWallet() { localStorage.setItem(LS_KEY, String(coins)); }
+// Монеты живут в кассе (hall/wallet.js). Здесь только рисование.
 
 function renderWallet() {
+  const coins = Wallet.coins;
   const stack = document.getElementById('coinStack');
   stack.innerHTML = '';
   for (let i = 0; i < Math.min(coins, 5); i++) {
@@ -71,6 +70,23 @@ function renderWallet() {
     stack.appendChild(c);
   }
   document.getElementById('coinCount').textContent = coins;
+}
+
+/* Касса обязана называть себя вслух: играть на демо-монеты и думать, что
+   платишь — унизительно, а платить и думать, что демо — страшно. */
+function renderCashierStatus() {
+  const note = document.getElementById('cashierNote');
+  if (!note) return;
+  if (Wallet.mode === 'server' && !Wallet.demo) {
+    note.textContent = 'PayPal · оплата настоящая';
+    note.className = 'paypal-note live';
+  } else if (Wallet.mode === 'server') {
+    note.textContent = 'касса на связи · демо-оплата, деньги не списываются';
+    note.className = 'paypal-note demo';
+  } else {
+    note.textContent = 'витрина · монеты только в этом браузере';
+    note.className = 'paypal-note offline';
+  }
 }
 
 // ── Звуки (WebAudio, без файлов) ───────────────────────────────────
@@ -110,10 +126,24 @@ function toast(msg) {
 }
 
 // ── Сцены ──────────────────────────────────────────────────────────
-document.getElementById('buyBtn').addEventListener('click', () => {
-  coins += COINS_PER_DOLLAR;
-  saveWallet(); renderWallet(); registerBell();
-  toast('+' + COINS_PER_DOLLAR + ' четвертаков. Приятной игры!');
+const buyBtn = document.getElementById('buyBtn');
+buyBtn.addEventListener('click', async () => {
+  buyBtn.disabled = true;
+  const was = buyBtn.textContent;
+  buyBtn.textContent = 'КАССА СЧИТАЕТ…';
+  try {
+    const res = await Wallet.buy(PACK_ID);
+    renderWallet();
+    if (res.ok) {
+      registerBell();
+      toast('+' + res.credited + ' четвертаков. Приятной игры!');
+    } else {
+      toast(res.error || 'касса не приняла оплату');
+    }
+  } finally {
+    buyBtn.disabled = false;
+    buyBtn.textContent = was;
+  }
 });
 document.getElementById('enterHall').addEventListener('click', () => {
   document.getElementById('lobby').classList.add('hidden');
@@ -257,7 +287,7 @@ const dragCoin = document.getElementById('dragCoin');
 let dragging = false;
 
 function startDrag(e) {
-  if (coins <= 0) return;
+  if (Wallet.coins <= 0) return;
   dragging = true;
   dragCoin.classList.remove('hidden');
   moveDrag(e);
@@ -287,9 +317,28 @@ function endDrag(e) {
   const cabEl = door.closest('.cab');
   const cab = CABS.find(c => c.id === cabEl.dataset.id);
   if (!cab || !cab.playable) return;
-  coins -= 1; saveWallet(); renderWallet();
-  clink();
-  zoomIntoGame(cabEl, cab);
+  playFor(cabEl, cab);
+}
+
+/* Монета сначала падает в кассу, и только если та её приняла — автомат
+   оживает. Списывать оптимистично нельзя: отказ кассы после старта игры
+   означал бы бесплатную игру или пропавший четвертак. */
+async function playFor(cabEl, cab) {
+  door_lock(cabEl, true);
+  try {
+    const res = await Wallet.spend(cab.id);
+    renderWallet();
+    if (!res.ok) { toast(res.error || 'касса не приняла монету'); return; }
+    clink();
+    zoomIntoGame(cabEl, cab);
+  } finally {
+    door_lock(cabEl, false);
+  }
+}
+
+function door_lock(cabEl, on) {
+  const door = cabEl.querySelector('.coin-door');
+  if (door) door.classList.toggle('busy', on);
 }
 
 /* Зум (плавный, Юджин 31.07): «трубка» со СКРИНШОТОМ игры стартует ровно
@@ -343,7 +392,10 @@ function zoomIntoGame(cabEl, cab) {
 }
 
 // ── Старт ──────────────────────────────────────────────────────────
+Wallet.onChange(renderWallet);
 renderWallet();
+renderCashierStatus();
+Wallet.init().then(() => { renderWallet(); renderCashierStatus(); });
 if (location.hash === '#hall') {
   document.getElementById('lobby').classList.add('hidden');
   document.getElementById('hall').classList.remove('hidden');
